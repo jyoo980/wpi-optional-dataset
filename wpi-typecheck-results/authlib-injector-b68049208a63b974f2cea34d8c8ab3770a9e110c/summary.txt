@@ -1,0 +1,10 @@
+2 warnings:
+  - 1: [optional.field] Don't use Optional as the type of a field.
+  - 1: [optional.paramter] Don't use Optional as the type of a formal parameter.
+
+2 errors:
+  - 2: [method.invocation] call to
+       <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+       the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
