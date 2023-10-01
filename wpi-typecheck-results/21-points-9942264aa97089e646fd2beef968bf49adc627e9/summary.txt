@@ -1,0 +1,12 @@
+65 warnings:
+  - 37: type.anno.before.decl.anno
+  - 28: type.anno.before.modifier 
+
+7 errors:
+  - 4: [method.invocation] call to
+       <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+       the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
+  - 3: [methodref.receiver]: incompatible reference type. Might be false
+       positive, see https://github.com/typetools/checker-framework/issues/6210.
