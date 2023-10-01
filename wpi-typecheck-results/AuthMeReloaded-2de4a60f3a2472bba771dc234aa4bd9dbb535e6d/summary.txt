@@ -1,0 +1,14 @@
+17 warnings:
+  - 5: [optional.field] Don't use Optional as the type of a field.
+  - 6: [introduce.eliminate] It is bad style to create an Optional just to
+       chain methods to get a value.
+  - 5: [optional.parameter] Don't use Optional as the type of a formal
+       parameter.
+  - 1: [type.anno.before.modifier]
+
+2 errors:
+  - 2: [method.invocation] call to
+       <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+       the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
