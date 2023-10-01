@@ -1,0 +1,591 @@
+Running for wpi: '/homes/gws/jmsy/checker-framework/checker/bin/javac' '-Xmaxerrs' '10000' '-Xmaxwarns' '10000' '-J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED' '-classpath' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/target/classes:/homes/gws/jmsy/.m2/repository/net/openhft/assertions-disabled/1.0.0/assertions-disabled-1.0.0.jar:/homes/gws/jmsy/.m2/repository/net/openhft/affinity/3.23.3/affinity-3.23.3.jar:/homes/gws/jmsy/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/homes/gws/jmsy/.m2/repository/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar:/homes/gws/jmsy/.m2/repository/net/openhft/posix/2.24ea5/posix-2.24ea5.jar:/homes/gws/jmsy/.m2/repository/com/github/jnr/jnr-ffi/2.2.13/jnr-ffi-2.2.13.jar:/homes/gws/jmsy/.m2/repository/com/github/jnr/jffi/1.3.10/jffi-1.3.10.jar:/homes/gws/jmsy/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/homes/gws/jmsy/.m2/repository/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar:/homes/gws/jmsy/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/homes/gws/jmsy/.m2/repository/com/github/jnr/jnr-constants/0.10.4/jnr-constants-0.10.4.jar:/homes/gws/jmsy/.m2/repository/net/openhft/chronicle-analytics/2.24ea0/chronicle-analytics-2.24ea0.jar:/homes/gws/jmsy/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/homes/gws/jmsy/.m2/repository/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar:' '-processor' 'optional' '-d' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/target/classes' '-sourcepath' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java:/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/target/generated-sources/annotations:' '-s' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/target/generated-sources/annotations' '-g' '--release' '11' '--release' '11' '-encoding' 'UTF-8' '-Xlint:deprecation' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/IOTools.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/StringUtils.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/UniqueMicroTimeProvider.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/ForceInline.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ClosedIllegalStateException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/PlainFileManagerMBean.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/SystemTimeProvider.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/InterruptedRuntimeException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/PlainFileClassifier.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ThreadingIllegalStateException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/ClassAliasPool.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/TimeProvider.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/InvocationTargetRuntimeException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/ClassLookup.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/DynamicEnumClass.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Maths.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/ThreadLock.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/WeakIdentityHashMap.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/HandlerPriority.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/ThreadLocalisedExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Longs.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/ThreadLocalHelper.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/Closeable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/NanoSampler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/Range.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/ReflectionUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjBooleanConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/MonitorReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/ParsingCache.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/AbstractReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/TracingReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/JitterSampler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/InvalidMarshallableException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingRunnable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ClassLocal.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/IORuntimeException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/ints/IntCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ReadResolvable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cooler/CpuCooler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/ChronicleFeature.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/MapUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeText.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/CpuClass.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/Validatable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjectUtils.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/FileSystemWatcher.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/ints/IntTriCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/StaticEnumClass.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/WatcherListener.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingIntSupplier.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/ints/IntBiCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/AbstractCloseableReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjCharConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ShortConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/domestic/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/FloatConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/shutdown/Hooklet.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/Bootstrap.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ClosedState.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializableFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/DontChain.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/IntTriPredicate.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThreadIndexAssigner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/JMXFileManagerMBean.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/LicenceCheck.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/CancellableTimer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/CloseableUtils.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/RequiredForClient.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/RangeUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/NullExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/GoogleExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingCallable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingBiFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/InvalidEventHandlerException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ByteBuffers.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializableConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/IntArrayValues.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/OS.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cleaner/spi/ByteBufferCleanerService.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/GenericReflection.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SimpleCleaner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/ExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/Resettable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/QueryCloseable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/SingleThreadedChecked.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/IntBiPredicate.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/ReferenceCountedUtils.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/StringBuilderPool.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingBiConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/analytics/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/UnsetLongValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializableUpdaterWithArg.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/URIEncoder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/ShortValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/VanillaThreadConfinementAsserter.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/AnnotationFinder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Time.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cleaner/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cleaner/CleanerServiceLocator.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/LongBiPredicate.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/EnumInterner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Annotations.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/ReflectiveAnalytics.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ReferenceChangeListener.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/UsedViaReflection.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializableUpdater.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/StackSampler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/shutdown/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/RunningMinimum.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/NonPositive.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/ExceptionKey.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/ClassifyingWatcherListener.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/announcer/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/ReflectiveBuilder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ReferenceCountedTracer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/FloatValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/DelegatingEventLoop.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/TargetMajorVersion.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/FileClassifier.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingLongSupplier.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/DoubleValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/AbstractInvocationHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/CharSequenceComparator.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/AbstractCloseable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/MonitorProfileAnalyserMain.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/BackgroundResourceReleaser.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/ScopeConfined.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ChronicleInitRunnable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cooler/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/CleaningRandomAccessFile.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/PackageLocal.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/CompilerUtils.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/CharValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/Negative.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/PosixTimeProvider.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/ByteValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjFloatConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/HotMethod.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/NopThreadConfinementAsserter.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/CharToBooleanFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/Java9.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/EventHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/CharConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingConsumerNonCapturing.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cooler/CpuCoolers.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/SimpleCloseable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/TypeOf.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/ThreadDump.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/TwoLongValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/Syncable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ClassNotFoundRuntimeException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/NonNegative.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/BooleanConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ReferenceOwner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/Slf4jExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/VanillaDifferencer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThreadConfinementAsserter.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/LongArrayValues.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/WebExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/StackoverflowExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/StringValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/ThreadConfinementLifecycle.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/LongValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/VanillaReferenceOwner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/StackTrace.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/PrintExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pom/PomProperties.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ClosedIORuntimeException.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ChronicleInit.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/StringInterner.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/shutdown/PriorityHook.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/Wget.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/DualReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Ints.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ValidatableUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/ObjectHeaderSizeHolder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/MuteAnalytics.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/MisAlignedAssertionError.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/MuteBuilder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/RecordingExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/Differencer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/DirectBufferUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializablePredicate.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/announcer/InternalAnnouncer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/SetTimeProvider.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjByteConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/OnDemandEventLoop.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ManagedCloseable.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ObjShortConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Bootstrap.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/Positive.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/pom/InternalPomProperties.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/pool/EnumCache.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/ReferenceChangeListenerManager.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/MaxBytes.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/analytics/StandardMaps.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/IgnoresEverything.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnresolvedType.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/LongTime.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/annotation/SingleThreaded.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/announcer/Announcer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/EventLoop.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cooler/CoolerTester.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/LongTriPredicate.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/SerializableBiFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/VanillaReferenceCounted.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ClassMetrics.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/cleaner/ReflectionBasedByteBufferCleanerService.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/BooleanValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/cleaner/Jdk9ByteBufferCleanerService.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/PlainFileManager.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/FileManager.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/CleaningThreadLocal.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/CoreDynamicEnum.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/VanillaEventHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongBiCondition.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/CleaningThread.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ByteConsumer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Memory.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingTriFunction.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/threads/Timer.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Mocker.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/RecordingHistogram.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/values/IntValue.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Histogram.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/watcher/JMXFileManager.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/cleaner/spi/package-info.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Builder.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/Updater.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/ClassUtil.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/ChainedExceptionHandler.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/analytics/AnalyticsFacade.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/ThrowingSupplier.java' '/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/onoes/LogLevel.java' '-Ainfer=ajava' '-Awarns'
+
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:28: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Memory.java:26: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+import sun.misc.Signal;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:34: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:22: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/IOTools.java:27: error: package sun.nio.ch is not visible
+import sun.nio.ch.IOStatus;
+              ^
+  (package sun.nio.ch is declared in module java.base, which does not export it to the unnamed module)
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:28: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Memory.java:26: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+import sun.misc.Signal;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:34: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:35: error: package sun.nio.ch is not visible
+import sun.nio.ch.Interruptible;
+              ^
+  (package sun.nio.ch is declared in module java.base, which does not export it to the unnamed module)
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/OS.java:25: error: package sun.nio.ch is not visible
+import sun.nio.ch.FileChannelImpl;
+              ^
+  (package sun.nio.ch is declared in module java.base, which does not export it to the unnamed module)
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/DirectBufferUtil.java:21: error: package sun.nio.ch is not visible
+import sun.nio.ch.DirectBuffer;
+              ^
+  (package sun.nio.ch is declared in module java.base, which does not export it to the unnamed module)
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:22: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:28: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Memory.java:26: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+import sun.misc.Signal;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:34: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:22: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1088: warning: [deprecation] copyMemory(byte[],int,Object,long,int) in Memory has been deprecated
+    public void copyMemory(byte[] src, int srcOffset, @Nullable Object dest, long destOffset, int length) {
+                ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:68: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static final Unsafe UNSAFE;
+                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:68: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static final Unsafe UNSAFE;
+                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:68: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static final Unsafe UNSAFE;
+                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:85: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final long ARRAY_BYTE_BASE_OFFSET = Unsafe.ARRAY_BYTE_BASE_OFFSET;
+                                                       ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:86: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final long ARRAY_CHAR_BASE_OFFSET = Unsafe.ARRAY_CHAR_BASE_OFFSET;
+                                                       ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:94: warning: Unsafe is internal proprietary API and may be removed in a future release
+            Field theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+                              ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:96: warning: Unsafe is internal proprietary API and may be removed in a future release
+            UNSAFE = (Unsafe) theUnsafe.get(null);
+                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:170: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || Ints.betweenZeroAndReserving().test(offset, bytes.length, Integer.BYTES);
+                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:267: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.betweenZeroAndReserving(), offset, bytes.length, Long.BYTES);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:280: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.betweenZeroAndReserving(), offset, bytes.length, Integer.BYTES);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:293: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.betweenZeroAndReserving(), offset, bytes.length, Byte.BYTES);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:316: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:328: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:339: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:350: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:362: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:374: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:386: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:398: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:410: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:422: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:434: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:446: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:458: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:470: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:482: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:494: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:506: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:519: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || obj == null || assertIfEnabled(Longs.nonNegative(), offset);
+                                                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:572: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:587: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:617: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), size);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:632: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), size);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:645: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), size);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:703: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:716: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:732: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:733: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:751: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:752: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:791: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:816: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:841: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:866: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:891: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:916: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:941: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:966: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:991: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1016: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1041: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1068: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcAddress);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1070: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1090: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1091: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1092: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1112: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1114: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1115: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1152: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1153: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1154: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1157: warning: Unsafe is internal proprietary API and may be removed in a future release
+                copyMemory((byte[]) src, Math.toIntExact(srcOffset - Unsafe.ARRAY_BYTE_BASE_OFFSET), (byte[]) dest, Math.toIntExact(destOffset - ARRAY_BYTE_BASE_OFFSET), length);
+                                                                     ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1159: warning: Unsafe is internal proprietary API and may be removed in a future release
+                copyMemoryLoop(src, ARRAY_BYTE_BASE_OFFSET + Math.toIntExact(srcOffset - Unsafe.ARRAY_BYTE_BASE_OFFSET), dest, destOffset, length);
+                                                                                         ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1179: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1180: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1181: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1199: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1201: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1202: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1223: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcAddress);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1224: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1225: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1246: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), srcOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1247: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), destOffset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1248: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1330: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.betweenZeroAndReserving(), offset, bytes.length, length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1377: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), addr);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1378: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1427: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1428: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), value);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1429: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1474: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), addr);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1475: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), value);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1476: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1521: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1522: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1556: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1557: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1583: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1626: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1644: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1664: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1702: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1737: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || (object == null || assertIfEnabled(Longs.nonNegative(), offset));
+                                                                     ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1770: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1805: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1832: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1865: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1892: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1923: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1950: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:1975: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2000: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2025: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2050: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2075: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2100: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2128: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2158: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2172: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), start);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2173: warning: [deprecation] Ints in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Ints.nonNegative(), length);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2174: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+        assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), addr);
+                                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2413: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2430: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2483: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2502: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2536: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2609: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2629: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2704: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2741: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2761: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2794: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2857: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2875: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2928: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2948: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:2982: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/UnsafeMemory.java:3055: warning: [deprecation] Longs in net.openhft.chronicle.core.util has been deprecated
+            assert SKIP_ASSERTIONS || assertIfEnabled(Longs.nonNegative(), offset);
+                                                      ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Memory.java:923: warning: Unsafe is internal proprietary API and may be removed in a future release
+                : Unsafe.ARRAY_OBJECT_INDEX_SCALE;
+                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:484: warning: [removal] Compiler in java.lang has been deprecated and marked for removal
+                Compiler.enable(); // 5 ns on Java 8
+                ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:932: warning: [removal] Compiler in java.lang has been deprecated and marked for removal
+                Compiler.enable(); // 5 ns on Java 8
+                ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1263: warning: Unsafe is internal proprietary API and may be removed in a future release
+        return Unsafe.ARRAY_BYTE_BASE_OFFSET;
+               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1563: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        private static void addSignalHandler(final String sig, final sun.misc.SignalHandler signalHandler) {
+                                                                             ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1563: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        private static void addSignalHandler(final String sig, final sun.misc.SignalHandler signalHandler) {
+                                                                             ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1563: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        private static void addSignalHandler(final String sig, final sun.misc.SignalHandler signalHandler) {
+                                                                             ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1565: warning: Signal is internal proprietary API and may be removed in a future release
+                Signal.handle(new Signal(sig), signalHandler);
+                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1565: warning: Signal is internal proprietary API and may be removed in a future release
+                Signal.handle(new Signal(sig), signalHandler);
+                ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1577: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    static final class ChainedSignalHandler implements sun.misc.SignalHandler {
+                                                               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1577: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    static final class ChainedSignalHandler implements sun.misc.SignalHandler {
+                                                               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1577: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    static final class ChainedSignalHandler implements sun.misc.SignalHandler {
+                                                               ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1578: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        final List<sun.misc.SignalHandler> handlers = new CopyOnWriteArrayList<>();
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1578: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        final List<sun.misc.SignalHandler> handlers = new CopyOnWriteArrayList<>();
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1578: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        final List<sun.misc.SignalHandler> handlers = new CopyOnWriteArrayList<>();
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1582: warning: Signal is internal proprietary API and may be removed in a future release
+        public void handle(final Signal signal) {
+                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1582: warning: Signal is internal proprietary API and may be removed in a future release
+        public void handle(final Signal signal) {
+                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1582: warning: Signal is internal proprietary API and may be removed in a future release
+        public void handle(final Signal signal) {
+                                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/Jvm.java:1583: warning: SignalHandler is internal proprietary API and may be removed in a future release
+            for (sun.misc.SignalHandler handler : handlers) {
+                         ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/AbstractCloseable.java:510: warning: [deprecation] finalize() in Object has been deprecated
+        protected void finalize() throws Throwable {
+                       ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/AbstractCloseable.java:512: warning: [deprecation] finalize() in Object has been deprecated
+            super.finalize();
+                 ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/CloseableUtils.java:90: warning: [deprecation] finalize() in Object has been deprecated
+            protected void finalize() throws Throwable {
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/CloseableUtils.java:91: warning: [deprecation] finalize() in Object has been deprecated
+                super.finalize();
+                     ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:25: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+public enum LongTriCondition implements LongTriPredicate {
+                                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:25: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+public enum LongTriCondition implements LongTriPredicate {
+                                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:25: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+public enum LongTriCondition implements LongTriPredicate {
+                                        ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:32: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+    private final LongTriPredicate predicate;
+                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:32: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+    private final LongTriPredicate predicate;
+                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:32: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+    private final LongTriPredicate predicate;
+                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:35: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+                     final LongTriPredicate predicate) {
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:35: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+                     final LongTriPredicate predicate) {
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/invariant/longs/LongTriCondition.java:35: warning: [deprecation] LongTriPredicate in net.openhft.chronicle.core.util has been deprecated
+                     final LongTriPredicate predicate) {
+                           ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/util/AbstractInvocationHandler.java:80: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+            if (!lookupConstructor.isAccessible()) {
+                                  ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/CleaningRandomAccessFile.java:45: warning: [deprecation] finalize() in Object has been deprecated
+    protected void finalize() throws Throwable {
+                   ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/CleaningRandomAccessFile.java:46: warning: [deprecation] finalize() in Object has been deprecated
+        super.finalize();
+             ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ChronicleInit.java:54: warning: [deprecation] newInstance() in Class has been deprecated
+                Runnable chronicleInit = descendant.newInstance();
+                                                   ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/ChronicleInit.java:93: warning: [deprecation] newInstance() in Class has been deprecated
+                Runnable chronicleInit = descendant.newInstance();
+                                                   ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/internal/util/DirectBufferUtil.java:44: error: package sun.nio.ch is not visible
+        return sun.nio.ch.DirectBuffer.class;
+                      ^
+  (package sun.nio.ch is declared in module java.base, which does not export it to the unnamed module)
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:31: warning: Unsafe is internal proprietary API and may be removed in a future release
+    protected Unsafe unsafe = null;
+              ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:31: warning: Unsafe is internal proprietary API and may be removed in a future release
+    protected Unsafe unsafe = null;
+              ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/io/UnsafeCloseable.java:31: warning: Unsafe is internal proprietary API and may be removed in a future release
+    protected Unsafe unsafe = null;
+              ^
+/scratch/jmsy/outdir/Chronicle-Core-fee5a6fe14470ea738e85cf9f7458ff81dbee0ca/Chronicle-Core/src/main/java/net/openhft/chronicle/core/time/SetTimeProvider.java:145: warning: [deprecation] currentTime(TimeUnit) in TimeProvider has been deprecated
+    public long currentTime(TimeUnit unit) {
+                ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors
+187 warnings
