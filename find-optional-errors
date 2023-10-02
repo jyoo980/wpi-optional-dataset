@@ -30,5 +30,5 @@ echo "OPTIONAL_COLLECTION = $COUNT_OPTIONAL_COLLECTION" >> result.txt
 echo "OPTIONAL_FIELD = $COUNT_OPTIONAL_FIELD" >> result.txt
 echo "OPTIONAL_PARAMETER = $COUNT_OPTIONAL_PARAMETER" >> result.txt
 
-echo "METHOD_INVOCATIONS\n"
-grep "$METHOD_INVOCATION" "$1" >> result.txt
+echo "METHOD_INVOCATIONS\n" >> result.txt
+grep -o "$METHOD_INVOCATION" "$1" >> result.txt
