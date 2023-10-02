@@ -1,0 +1,10 @@
+10 warnings:
+  - 10: [introduce.eliminate] It is bad style to create an Optional just to
+        chain methods to get a value.
+
+2 errors:
+  - 2: [method.invocation] call to
+       <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+       the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
