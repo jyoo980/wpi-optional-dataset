@@ -1,0 +1,14 @@
+1 warning:
+  - 1: [optional.parameter] Don't use Optional as the type of a formal
+       parameter
+
+79 errors:
+  - 14: [optional.collection] Don't use Optional to wrap a collection type.
+  - 46: [method.invocation] call to get() not allowed on the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
+  - 19: [methodref.receiver] call to
+        <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+        the given receiver.
+
+
