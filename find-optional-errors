@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Optional-specific error strings.
 PREFER_MAP_AND_ORELSE="It is better style to use map and orElse."
 PREFER_IFPRESENT="It is better style to use ifPresent."
 INTRODUCE_ELIMINATE="It is bad style to create an Optional just to chain methods to get a value."
@@ -7,6 +8,9 @@ OPTIONAL_AS_ELEMENT_TYPE="Don't use Optional as the element type in a collection
 OPTIONAL_COLLECTION="Don't use Optional to wrap a collection type.%nUse an empty collection to represent the absence of values."
 OPTIONAL_FIELD="Don't use Optional as the type of a field."
 OPTIONAL_PARAMETER="Don't use Optional as the type of a formal parameter."
+
+# Other error strings
+METHOD_INVOCATION="call to .* not allowed on the given receiver"
 
 TYPECHECK_FILE="$1"
 
@@ -18,7 +22,6 @@ COUNT_OPTIONAL_COLLECTION=$(grep -c "$OPTIONAL_COLLECTION" "$1")
 COUNT_OPTIONAL_FIELD=$(grep -c "$OPTIONAL_FIELD" "$1")
 COUNT_OPTIONAL_PARAMETER=$(grep -c "$OPTIONAL_PARAMETER" "$1")
 
-
 echo "PREFER_MAP_AND_ORELSE = $COUNT_PREFER_MAP_AND_ORELSE" >> result.txt
 echo "PREFER_IFPRESENT = $COUNT_PREFER_IFPRESENT" >> result.txt
 echo "INTRODUCE_ELIMINATE = $COUNT_INTRODUCE_ELIMINATE" >> result.txt
@@ -26,3 +29,6 @@ echo "OPTIONAL_AS_ELEMENT_TYPE = $COUNT_OPTIONAL_AS_ELEMENT_TYPE" >> result.txt
 echo "OPTIONAL_COLLECTION = $COUNT_OPTIONAL_COLLECTION" >> result.txt
 echo "OPTIONAL_FIELD = $COUNT_OPTIONAL_FIELD" >> result.txt
 echo "OPTIONAL_PARAMETER = $COUNT_OPTIONAL_PARAMETER" >> result.txt
+
+echo "METHOD_INVOCATIONS\n"
+grep "$METHOD_INVOCATION" "$1" >> result.txt
