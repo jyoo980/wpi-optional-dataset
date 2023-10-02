@@ -1,0 +1,15 @@
+3 errors:
+  - 2: [method.invocating] call to get() not allowed on the given receiver
+
+       Relevant code:
+          Enum constant = constants.stream().filter(c -> c.name().contentEquals(n)).findFirst().get();
+          .findfirst().get().getValue()
+  - 1: [method.invocation] call to
+       <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on
+       the given receiver.
+          found   : @MaybePresent Optional</*RAW*/>
+          required: @Present Optional</*RAW*/>
+       
+       Relevant code:
+          .orElseThrow(NoArgsConstructorException::new);
+
