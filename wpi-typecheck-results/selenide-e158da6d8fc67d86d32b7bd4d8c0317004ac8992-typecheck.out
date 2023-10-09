@@ -1,0 +1,895 @@
+Running for wpi: '/homes/gws/jmsy/checker-framework/checker/bin/javac' '-Xmaxerrs' '10000' '-Xmaxwarns' '10000' '-classpath' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/4.12.0/18cef0adbc08d152da07b234a04f6e8240ce215f/selenium-java-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/xyz.rogfam/littleproxy/2.0.19/f3047cb19eaee27eaeb45b2154c05d8713990f3a/littleproxy-2.0.19.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5/5.2.1/c900514d3446d9ce5d9dbd90c21192048125440/httpclient5-5.2.1.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/41eb7184ea9d556f23e18b5cb99cad1f8581fc00/slf4j-api-2.0.7.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.10.0/d533ff2c286eaf963566f92baf5f8a06628d2609/junit-platform-commons-1.10.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.10.0/2fe4ba3d31d5067878e468c96aa039005a9134d3/junit-jupiter-api-5.10.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.github.bsideup.jabel/jabel-javac-plugin/1.0.0/f6ec2a4deac41871ea4366ff8680f51413a18139/jabel-javac-plugin-1.0.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.github.valfirst.browserup-proxy/browserup-proxy-core/2.2.11/8c16ba7852846cc5094077b1285e3af19b467cd7/browserup-proxy-core-2.2.11.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.12.0/855b702b662cbfade8645e4dc9a939f90dcde9b9/selenium-chrome-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v114/4.12.0/be0cee1971bd67ac30cfc270a977d348142f1f07/selenium-devtools-v114-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v115/4.12.0/9fa8875e4c83810868fd13513d60b00100947db6/selenium-devtools-v115-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v116/4.12.0/74f994dcd0c03d3cc36f2bb1a92966950644d1b1/selenium-devtools-v116-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/4.12.0/6fba436c2a46da929a31c8adc43bf19bc4e784a3/selenium-firefox-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v85/4.12.0/cba6de32eb7223cf6b0f605a02e20eca2662141c/selenium-devtools-v85-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/4.12.0/ba8a5a790cfa9f84bd5bfebe0450dae1770c6f4/selenium-edge-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/4.12.0/b7b91613bd213e2c3a4ca5b493efc112f2e7f0b2/selenium-ie-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/4.12.0/88d41be11c190acc2f98dd04d4c0f58c9933755/selenium-safari-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/4.12.0/5e709625184e0c96c19d851e08da7971805574e0/selenium-support-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chromium-driver/4.12.0/a4257b87b573d267ff258481250ffb8ca7e0ffe5/selenium-chromium-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.12.0/d225ef9448c319a6f39b6110e39521ce3258ee45/selenium-remote-driver-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-manager/4.12.0/b3ee062a50f76db0eb53ffb5d3a32725ba6ab8e/selenium-manager-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-http/4.12.0/be862a3c82ad91032ab2e48653a6986181a9553b/selenium-http-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-os/4.12.0/91ce811433b76a85ff37e8b3aeaf2b919f4e65ff/selenium-os-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.2-jre/5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318/guava-32.1.2-jre.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.13.0/b7263237aa89c1f99b327197c41d0669707a462e/commons-lang3-3.13.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.13.0/8bb2bc9b4df17e2411533a0708a69f983bf5e83b/commons-io-2.13.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-json/4.12.0/ebab8a0a864a9715df77b8c615d8c41709282924/selenium-json-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.12.0/73106be049f5c3e8491d4de8c1bf4076635e370d/selenium-api-4.12.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.95.Final/15dfb8754274452368eefc927fb64be22ed56fa4/netty-all-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.barchart.udt/barchart-udt-bundle/2.3.0/3d1a29b2b08d20533ad08918411528dd1880515e/barchart-udt-bundle-2.3.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-h2/5.2/698bd8c759ccc7fd7398f3179ff45d0e5a7ccc16/httpcore5-h2-5.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5/5.2/ab7d251b8dfa3f2878f1eefbcca0e1fc0ebeba27/httpcore5-5.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.1.1/da12a15cd058ba90a0ff55357fb521161af4736d/auto-service-annotations-1.1.1.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.asynchttpclient/async-http-client/2.12.3/6dfc91814cc8b3bc3327246d0e5df36911b9a623/async-http-client-2.12.3.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.95.Final/bf121618d9529c9fc79543600cc2126f8db04482/netty-handler-proxy-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.96.Final/a4d0d95df5026965c454902ef3d6d84b81f89626/netty-codec-http-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.96.Final/9faf365396c933f1b39b60d129391c6c6c43fb86/netty-transport-native-epoll-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.96.Final/3f8904e072cfc9a8d67c6fe567c39bcbce5c9c55/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.96.Final/b0369501645f6e71f89ff7f77b5c5f52510a2e31/netty-transport-classes-epoll-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.96.Final/2721cf6fe8752168dafdd4187ae097e6cf9dd9f5/netty-transport-native-kqueue-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.96.Final/c127ed313fc80cf2cb366dccfded1daddc89a8ef/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-kqueue/4.1.96.Final/782f6bbb8dd5401599d272ea0fb81d1356bdffb2/netty-transport-classes-kqueue-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/2.0.4/f77c8eaa7d5e2f2160b6d21ba385cf726f164b2/netty-reactive-streams-2.0.4.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.96.Final/7840d7523d709e02961b647546f9d9dde1699306/netty-handler-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.96.Final/daf8578cade63a01525ee9d70371fa78e6e91094/netty-transport-native-unix-common-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.95.Final/8e182b843695855d4f90f51a8cd618e2f0cc5995/netty-codec-socks-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.96.Final/9cfe430f8b14e7ba86969d8e1126aa0aae4d18f0/netty-codec-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.96.Final/dbd15ca244be28e1a98ed29b9d755edbfa737e02/netty-transport-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.asynchttpclient/async-http-client-netty-utils/2.12.3/ad99d8622931ed31367d0fef7fa17eb62e033fb3/async-http-client-netty-utils-2.12.3.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.96.Final/4b80fffbe77485b457bf844289bf1801f61b9e91/netty-buffer-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.96.Final/e51db5568a881e0f9b013b35617c597dc32f130/netty-resolver-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.96.Final/d10c167623cbc471753f950846df241d1021655c/netty-common-4.1.96.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.28.0/e6721fd80fe703a9bbaf8fcdf269aa878a2fa963/opentelemetry-exporter-logging-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/6db66c77ca29a8d05227324a8392b736744bbe3f/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/582ce034be1262aac6d77b92ec2d6cf4884cee4d/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.28.0/a1ca3938a03e5bb0749dc92da91edf76f6ee3b7f/opentelemetry-sdk-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.28.0/18797986d45940d873430023280211d6990680c/opentelemetry-sdk-trace-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.28.0/4d955fb6c2ec89b4f55d88d7aed4dd9c36809235/opentelemetry-sdk-metrics-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.28.0/adcd0bc96bc77152a15b3b8890bd8a04dd0bf36b/opentelemetry-sdk-logs-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.28.0/b25e52ef6829bb41db3227d8fcc206009b018f40/opentelemetry-sdk-common-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-semconv/1.28.0-alpha/97336840db7cb0ef7e5d292f7cec5bdb385cc370/opentelemetry-semconv-1.28.0-alpha.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.28.0/ebdea4fbe23c3929f1702b176d2cd63ac6288f0/opentelemetry-api-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.28.0/468c460d80c5a6e0fdddd3c1a83148b316571c22/opentelemetry-context-1.28.0.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.5/28a424c0c4f362568e904d992c239c996cf7adc7/byte-buddy-1.14.5.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.95.Final/e45bd05d2c8db675af7ac45cf2744ba3467bb211/netty-codec-dns-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-haproxy/4.1.95.Final/f53e52ceffed6622f5847e535e6f921fa77fbf64/netty-codec-haproxy-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.95.Final/871549029bd3d8102c58dbd813d609ad755303f0/netty-codec-http2-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-memcache/4.1.95.Final/e29c330172577505ceb76c937cbb3b7831e1e273/netty-codec-memcache-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-mqtt/4.1.95.Final/9b76b758aa44c7feb1e2b9194ff5a5da22179aaa/netty-codec-mqtt-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-redis/4.1.95.Final/4d8aff78d4f794413fa4a77bcd682b479eb4eaf3/netty-codec-redis-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-smtp/4.1.95.Final/53bf0ab21d6da80b4ff89b4016039c55e652e8b/netty-codec-smtp-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-stomp/4.1.95.Final/2c9718033f1ba74cf57c4c8cf8b66edd213189c0/netty-codec-stomp-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-xml/4.1.95.Final/80eec150361bf3d32b0e6b81fef2648750f19661/netty-codec-xml-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-ssl-ocsp/4.1.95.Final/8a4efab412464dcc9aba073b6e6484765d946f1e/netty-handler-ssl-ocsp-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.95.Final/8dfdc08b6afd7634cd21cc4d291cc09a3fda4d20/netty-resolver-dns-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-rxtx/4.1.95.Final/790b60add83d9463f2d3eb9d86a4b71645b7f694/netty-transport-rxtx-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-sctp/4.1.95.Final/c49a4c8f77928cded49008f3d81e470e79a7aa2/netty-transport-sctp-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.1.95.Final/9f424367f8abf5bc665f66d51d4c06178cd58e3a/netty-transport-udt-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-classes-macos/4.1.95.Final/69fd674c6f24793bd9cae832c029f384e4a02335/netty-resolver-dns-classes-macos-4.1.95.Final.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/dev.failsafe/failsafe/3.3.2/738a986f1f0e4b6c6a49d351dddc772d1378c5a8/failsafe-3.3.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/74548703f9851017ce2f556066659438019e7eb5/jakarta.activation-1.2.2.jar:/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar' '-processor' 'optional' '--release' '8' '-d' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/modules/core/build/classes/java/main' '-encoding' 'UTF-8' '-h' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/modules/core/build/generated/sources/headers/java/main' '-g:source,lines,vars' '-sourcepath' '' '-s' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/modules/core/build/generated/sources/annotationProcessor/java/main' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/As.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/AssertionMode.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/AuthenticationType.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/BasicAuthCredentials.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/BearerTokenCredentials.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Browser.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/BrowserDownloadsFolder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Browsers.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ClickMethod.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ClickOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Clipboard.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ClipboardConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ClipboardService.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CollectionCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Command.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Condition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Conditional.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Config.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Credentials.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/DefaultClipboard.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/DownloadOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/DownloadsFolder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/DragAndDropOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Driver.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsContainer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/FileDownloadMode.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/HoverOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/LocalStorage.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/LocalStorageConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Modal.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ObjectCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/PropertiesReader.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelectorMode.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Selectors.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideConfig.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideDriver.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideTargetLocator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideWait.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SessionStorage.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SessionStorageConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueMethod.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SharedDownloadsFolder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Stopwatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/TextCheck.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/TypeOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/WebDriverConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/WebDriverLogs.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/WebDriverProvider.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/AllMatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/AnyMatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/Attributes.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/CollectionSizeCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ContainExactTextsCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTexts.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTextsCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTextsCaseSensitiveInAnyOrder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ItemWithText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ListSize.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/NoneMatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/PredicateCollectionCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/SizeGreaterThan.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/SizeGreaterThanOrEqual.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/SizeLessThan.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/SizeLessThanOrEqual.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/SizeNotEqual.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/Texts.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/TextsInAnyOrder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Ancestor.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Append.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/As.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/CacheSelenideElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Clear.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Click.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Commands.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ContextClick.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DescribeElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DoubleClick.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Execute.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Exists.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Find.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/FindAll.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/FindAllByXpath.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/FindByXpath.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetAlias.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetAttribute.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetCssValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetDataAttribute.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetInnerHtml.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetInnerText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetLastChild.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetName.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetOwnText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetParent.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPreceding.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSearchCriteria.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSelectedOption.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSelectedOptionText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSelectedOptionValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSelectedOptions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetSibling.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetWrappedElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Hover.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/IsDisplayed.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/IsImage.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Matches.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Paste.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Press.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/PressEnter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/PressEscape.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/PressTab.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ScrollIntoView.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ScrollTo.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionContainingText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectRadio.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetSelected.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Should.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ShouldBe.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ShouldHave.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ShouldNot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ShouldNotBe.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ShouldNotHave.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/TakeScreenshot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/TakeScreenshotAsImage.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ToString.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ToWebElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Type.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/UploadFile.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/UploadFileFromClasspath.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Val.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorResult.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRule.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/SelectorValidation.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/And.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Attribute.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/AttributeWithValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseInsensitiveTextCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseSensitiveText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseSensitiveTextCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Checked.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ConditionHelpers.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CssClass.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CssValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CustomMatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Disabled.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Editable.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Enabled.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ExactOwnText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ExactOwnTextCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ExactText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ExactTextCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Exist.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/ExplainedCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Focused.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Hidden.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Href.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/InnerText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Interactable.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/IsImageLoaded.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/MatchAttributeWithValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/MatchText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/NamedCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Not.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Or.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/OwnText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/OwnTextCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/PartialText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/PartialTextCaseSensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/PartialValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/PseudoElementPropertyWithValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Readonly.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Selected.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/SelectedText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/TagName.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Text.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/TextCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Value.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Visible.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/clipboard/Content.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateBetween.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateEquals.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateFormatCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateTimeBetween.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateTimeConditions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateTimeEquals.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/DateTimeFormatCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalFormatCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/localstorage/Item.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/localstorage/ItemWithValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/sessionstorage/Item.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/sessionstorage/ItemWithValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CookieWithName.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CookieWithNameAndValue.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CurrentFrameCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CurrentFrameUrl.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CurrentFrameUrlContaining.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/CurrentFrameUrlStartingWith.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/NumberOfWindows.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/Title.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/Url.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/UrlCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/UrlContaining.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/webdriver/UrlStartingWith.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BrowserHealthChecker.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/CloseDriverCommand.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/CreateDriverCommand.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/DisposablesRegistry.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/LazyDriver.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/Navigator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/WebDriverWrapper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/WebdriversRegistry.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/AlertNotFoundException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/AttributesMismatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ConditionMetException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ConditionNotMetException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/DialogTextMismatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/DoesNotContainTextsError.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ElementIsNotClickableException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ElementNotFound.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ElementShould.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ElementShouldNot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ElementWithTextNotFound.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ErrorFormatter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/FrameNotFoundException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/InvalidStateException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ListSizeMismatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/MatcherError.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/ObjectConditionError.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/PageObjectException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/SelenideErrorFormatter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/SoftAssertionError.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/Strings.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/TextsMismatch.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/TimeoutException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/UIAssertionError.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/WindowNotFoundException.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/DownloadAction.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/DownloadActions.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/DownloadedFile.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/EmptyFileFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/ExtensionFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/FileFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/FileFilters.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/FilenameFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/files/FilenameRegexFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Alias.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/BySelectorCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/CiReportUrl.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Cleanup.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Clock.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/CollectionElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/CollectionElementByCondition.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/CollectionSnapshot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/CollectionSource.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Describe.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Disposable.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DownloadDetector.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileToFolder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileWithHttpRequest.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileWithProxyServer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Downloader.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DurationFormat.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementCommunicator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementDescriber.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementsContainerCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ExceptionWrapper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/FileContent.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/FileHelper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/FileNamer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/FilteringCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/HasTimeout.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/HeadOfCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Html.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JSElementFinder.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/LastCollectionElement.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/LazyCollectionSnapshot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/LazyWebElementSnapshot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Lists.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/PageObjectFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/PageSourceExtractor.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Photographer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Plugins.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Randomizer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ScreenShotLaboratory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Screenshot.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementDescriber.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementIterator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementListIterator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementProxy.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/TailOfCollection.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Waiter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementCommunicator.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSelector.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementWrapper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementsCollectionWrapper.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebPageSourceExtractor.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebdriverCookieStore.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebdriverPhotographer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WindowsCloser.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/windows/FrameByIdOrName.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/windows/WindowByIndex.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/windows/WindowByNameOrHandle.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/junit5/TextReportExtension.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ErrorsCollector.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/EventsCollector.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/LogEvent.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/LogEventListener.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SelenideLog.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SelenideLogger.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/AuthenticationFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/BrowserUpProxyServerUnlimited.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/DefaultSelenideProxyServerFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/FileDownloadFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/MockResponseFilter.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/RequestMatcher.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/RequestMatchers.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/RequestSizeWatchdog.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/ResponseSizeWatchdog.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/SelenideProxyServer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/proxy/SelenideProxyServerFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByAttribute.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByDeepShadow.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByShadow.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByTagAndText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/ByTextCaseInsensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/OptimizedBy.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/WithTagAndText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/WithText.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/WithTextCaseInsensitive.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/Xpath.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/selector/package-info.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/AbstractChromiumDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/AbstractDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/BrowserResizer.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/CdpClient.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/ChromeDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/DefaultDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/DriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/EdgeDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/HttpClientTimeouts.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/InternetExplorerDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/RemoteDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/SafariDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/SelenideNettyClientFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java' '/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/package-info.java' '-Ainfer=ajava' '-Awarns'
+
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:22: error: class, interface, or enum expected
+public record CheckResult(
+       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:24: error: class, interface, or enum expected
+  @Nullable String message,
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:25: error: class, interface, or enum expected
+  @Nullable Object actualValue,
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:28: error: class, interface, or enum expected
+  private static final DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("HH:mm:ss:SSS");
+                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:30: error: class, interface, or enum expected
+  public static CheckResult rejected(String message, Object actualValue) {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:32: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:34: error: class, interface, or enum expected
+  public static CheckResult accepted() {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:36: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:38: error: class, interface, or enum expected
+  public CheckResult(Verdict verdict, @Nullable Object actualValue) {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:38: error: class, interface, or enum expected
+  public CheckResult(Verdict verdict, @Nullable Object actualValue) {
+                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:40: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:42: error: class, interface, or enum expected
+  public CheckResult(boolean checkSucceeded, @Nullable Object actualValue) {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:42: error: class, interface, or enum expected
+  public CheckResult(boolean checkSucceeded, @Nullable Object actualValue) {
+                                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:44: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:52: error: class, interface, or enum expected
+  public String toString() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:54: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:58: error: class, interface, or enum expected
+  public String getMessageOrElse(Supplier<String> defaultMessage) {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:60: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:65: error: class, interface, or enum expected
+  public <T> T getActualValue() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:67: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:72: error: class, interface, or enum expected
+  public <T> T getActualValueOrElse(T defaultValue) {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:74: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:79: error: class, interface, or enum expected
+  public <T> T requireActualValue() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CheckResult.java:81: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CollectionCondition.java:83: error: ';' expected
+    List<WebElement> actualElements = lastCheckResult.actualValue() instanceof ActualElementsHolder holder ? holder.elements() : null;
+                                                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CollectionCondition.java:83: error: not a statement
+    List<WebElement> actualElements = lastCheckResult.actualValue() instanceof ActualElementsHolder holder ? holder.elements() : null;
+                                                                                                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/CollectionCondition.java:415: error: ';' expected
+    public String toString() {
+                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Driver.java:110: error: ')' expected
+    if (driver instanceof WrapsDriver wrapper) {
+                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Driver.java:110: error: not a statement
+    if (driver instanceof WrapsDriver wrapper) {
+                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/Driver.java:110: error: ';' expected
+    if (driver instanceof WrapsDriver wrapper) {
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsCollection.java:196: error: ')' expected
+    else if (lastError instanceof UIAssertionError uiAssertionError) {
+                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsCollection.java:196: error: not a statement
+    else if (lastError instanceof UIAssertionError uiAssertionError) {
+                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsCollection.java:196: error: ';' expected
+    else if (lastError instanceof UIAssertionError uiAssertionError) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ElementsCollection.java:199: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:82: error: unclosed string literal
+    return driver.executeJavaScript(js("""
+                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: illegal start of expression
+      return Object.keys(%1$s).reduce((items, key) => {
+                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: ')' expected
+      return Object.keys(%1$s).reduce((items, key) => {
+                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: ';' expected
+      return Object.keys(%1$s).reduce((items, key) => {
+                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: ')' expected
+      return Object.keys(%1$s).reduce((items, key) => {
+                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: illegal start of expression
+      return Object.keys(%1$s).reduce((items, key) => {
+                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:83: error: illegal start of expression
+      return Object.keys(%1$s).reduce((items, key) => {
+                                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:84: error: illegal start of expression
+         items[key] = %1$s.getItem(key);
+                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:84: error: ';' expected
+         items[key] = %1$s.getItem(key);
+                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:86: error: illegal start of expression
+      }, {});"""));
+       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:86: error: illegal start of expression
+      }, {});"""));
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:86: error: unclosed string literal
+      }, {});"""));
+               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/JSStorage.java:86: error: not a statement
+      }, {});"""));
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:14: error: class, interface, or enum expected
+public record ModalOptions(
+       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:15: error: class, interface, or enum expected
+  @Nullable String expectedText,
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:16: error: class, interface, or enum expected
+  @Nullable Duration timeout
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:21: error: class, interface, or enum expected
+  public static ModalOptions none() {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:23: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:27: error: class, interface, or enum expected
+  public static ModalOptions withExpectedText(@Nullable String expectedText) {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:27: error: class, interface, or enum expected
+  public static ModalOptions withExpectedText(@Nullable String expectedText) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:29: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:33: error: class, interface, or enum expected
+  public static ModalOptions withTimeout(Duration timeout) {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:35: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:39: error: class, interface, or enum expected
+  public ModalOptions timeout(Duration timeout) {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:41: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:44: error: class, interface, or enum expected
+  public String toString() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:47: error: class, interface, or enum expected
+    else if (expectedText == null)
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:49: error: class, interface, or enum expected
+    else if (timeout == null)
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:51: error: class, interface, or enum expected
+    else
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ModalOptions.java:53: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SelenideTargetLocator.java:310: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var error = new AlertNotFoundException(driver, cause);
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueOptions.java:124: error: ';' expected
+    String value(TemporalAccessor date) {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueOptions.java:124: error: ';' expected
+    String value(TemporalAccessor date) {
+                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueOptions.java:127: error: ';' expected
+    String display(TemporalAccessor date) {
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/SetValueOptions.java:127: error: ';' expected
+    String display(TemporalAccessor date) {
+                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/Attributes.java:66: error: ')' expected
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/Attributes.java:66: error: not a statement
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/Attributes.java:66: error: ';' expected
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTexts.java:71: error: ')' expected
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTexts.java:71: error: not a statement
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/collections/ExactTexts.java:71: error: ';' expected
+    if (lastCheckResult.actualValue() instanceof Integer actualSize) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Ancestor.java:23: error: ')' expected
+      (args[1] instanceof Integer indexArgument ? indexArgument + 1 : 1) :
+                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Ancestor.java:23: error: ';' expected
+      (args[1] instanceof Integer indexArgument ? indexArgument + 1 : 1) :
+                                                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:78: error: ')' expected
+    if (args != null && args.length > 0 && args[0] instanceof DownloadOptions downloadOptions) {
+                                                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:78: error: not a statement
+    if (args != null && args.length > 0 && args[0] instanceof DownloadOptions downloadOptions) {
+                                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:78: error: ';' expected
+    if (args != null && args.length > 0 && args[0] instanceof DownloadOptions downloadOptions) {
+                                                                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:88: error: ')' expected
+    if (args != null && args.length > 0 && args[0] instanceof Long timeoutArgument) {
+                                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:88: error: not a statement
+    if (args != null && args.length > 0 && args[0] instanceof Long timeoutArgument) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:88: error: ';' expected
+    if (args != null && args.length > 0 && args[0] instanceof Long timeoutArgument) {
+                                                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:91: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:99: error: ')' expected
+    if (args != null && args.length > 0 && args[0] instanceof FileFilter fileFilter) {
+                                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:99: error: not a statement
+    if (args != null && args.length > 0 && args[0] instanceof FileFilter fileFilter) {
+                                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:99: error: ';' expected
+    if (args != null && args.length > 0 && args[0] instanceof FileFilter fileFilter) {
+                                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:102: error: ')' expected
+    if (args != null && args.length > 1 && args[1] instanceof FileFilter fileFilter) {
+                                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:102: error: not a statement
+    if (args != null && args.length > 1 && args[1] instanceof FileFilter fileFilter) {
+                                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:102: error: ';' expected
+    if (args != null && args.length > 1 && args[1] instanceof FileFilter fileFilter) {
+                                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:105: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:47: error: ')' expected
+    if (args[0] instanceof DragAndDropOptions options)
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:47: error: not a statement
+    if (args[0] instanceof DragAndDropOptions options)
+                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:47: error: ';' expected
+    if (args[0] instanceof DragAndDropOptions options)
+                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:52: error: ')' expected
+    if (args.length > 1 && args[1] instanceof DragAndDropOptions dragAndDropOptions)
+                                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:52: error: not a statement
+    if (args.length > 1 && args[1] instanceof DragAndDropOptions dragAndDropOptions)
+                                                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:52: error: ';' expected
+    if (args.length > 1 && args[1] instanceof DragAndDropOptions dragAndDropOptions)
+                                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:61: error: ')' expected
+    if (args[0] instanceof String cssSelector)
+                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:61: error: not a statement
+    if (args[0] instanceof String cssSelector)
+                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:61: error: ';' expected
+    if (args[0] instanceof String cssSelector)
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:63: error: ')' expected
+    else if (args[0] instanceof WebElement webElement)
+                                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:63: error: not a statement
+    else if (args[0] instanceof WebElement webElement)
+                                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:63: error: ';' expected
+    else if (args[0] instanceof WebElement webElement)
+                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:63: error: 'else' without 'if'
+    else if (args[0] instanceof WebElement webElement)
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:70: error: : expected
+      case JS -> dragAndDropUsingJavaScript(locator.driver(), locator.getWebElement(), target.getWrappedElement());
+                                                                                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:71: error: : expected
+      case ACTIONS -> dragAndDropUsingActions(locator.driver(), locator.getWebElement(), target.getWrappedElement());
+                                                                                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:72: error: : expected
+      default -> throw new IllegalArgumentException("Drag and Drop method not defined!");
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/DragAndDropTo.java:72: error: illegal start of expression
+      default -> throw new IllegalArgumentException("Drag and Drop method not defined!");
+              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java:17: error: unclosed string literal
+  static final String JS_CODE = """
+                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java:18: error: <identifier> expected
+    return window.getComputedStyle(arguments[0], arguments[1]).getPropertyValue(arguments[2]);
+                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java:18: error: ']' expected
+    return window.getComputedStyle(arguments[0], arguments[1]).getPropertyValue(arguments[2]);
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java:19: error: illegal start of type
+    """;
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/GetPseudoValue.java:19: error: unclosed string literal
+    """;
+      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:34: error: ')' expected
+    else if (args[0] instanceof String firstOptionText) {
+                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:34: error: not a statement
+    else if (args[0] instanceof String firstOptionText) {
+                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:34: error: ';' expected
+    else if (args[0] instanceof String firstOptionText) {
+                                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:39: error: ')' expected
+    else if (args[0] instanceof Integer firstOptionIndex) {
+                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:39: error: not a statement
+    else if (args[0] instanceof Integer firstOptionIndex) {
+                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:39: error: ';' expected
+    else if (args[0] instanceof Integer firstOptionIndex) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:39: error: 'else' without 'if'
+    else if (args[0] instanceof Integer firstOptionIndex) {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SelectOptionByTextOrIndex.java:44: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetValue.java:48: error: ')' expected
+    if (args[0] instanceof SetValueOptions options) {
+                                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetValue.java:48: error: not a statement
+    if (args[0] instanceof SetValueOptions options) {
+                                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetValue.java:48: error: ';' expected
+    if (args[0] instanceof SetValueOptions options) {
+                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/SetValue.java:51: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Type.java:50: error: ')' expected
+    if (args[0] instanceof TypeOptions options) {
+                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Type.java:50: error: not a statement
+    if (args[0] instanceof TypeOptions options) {
+                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Type.java:50: error: ';' expected
+    if (args[0] instanceof TypeOptions options) {
+                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Type.java:52: error: 'else' without 'if'
+    } else {
+      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/UploadFile.java:63: error: ';' expected
+    return args instanceof File[] multipleFiles ? multipleFiles : firstOf(args);
+                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/UploadFile.java:63: error: not a statement
+    return args instanceof File[] multipleFiles ? multipleFiles : firstOf(args);
+                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:39: error: ')' expected
+      if (arg instanceof Condition conditionArgument)
+                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:39: error: not a statement
+      if (arg instanceof Condition conditionArgument)
+                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:39: error: ';' expected
+      if (arg instanceof Condition conditionArgument)
+                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:41: error: ')' expected
+      else if (arg instanceof Condition[] conditionsArray)
+                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:41: error: not a statement
+      else if (arg instanceof Condition[] conditionsArray)
+                                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:41: error: ';' expected
+      else if (arg instanceof Condition[] conditionsArray)
+                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:41: error: 'else' without 'if'
+      else if (arg instanceof Condition[] conditionsArray)
+      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/commands/Util.java:43: error: 'else' without 'if'
+      else if (!(arg instanceof String || arg instanceof Long || arg instanceof Duration))
+      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseInsensitiveTextCondition.java:23: error: illegal start of expression
+    return switch (textCheck) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseInsensitiveTextCondition.java:24: error: : expected
+      case FULL_TEXT -> Html.text.equals(actualText, expectedText);
+                                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseInsensitiveTextCondition.java:25: error: : expected
+      case PARTIAL_TEXT -> Html.text.contains(actualText, expectedText);
+                                                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseSensitiveTextCondition.java:23: error: illegal start of expression
+    return switch (textCheck) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseSensitiveTextCondition.java:24: error: : expected
+      case FULL_TEXT -> Html.text.equalsCaseSensitive(actualText, expectedText);
+                                                                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/CaseSensitiveTextCondition.java:25: error: : expected
+      case PARTIAL_TEXT -> Html.text.containsCaseSensitive(actualText, expectedText);
+                                                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/MatchText.java:29: error: illegal start of expression
+    return switch (textCheck) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/MatchText.java:30: error: : expected
+      case FULL_TEXT -> Html.text.matches(actualText, expectedText);
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/MatchText.java:31: error: : expected
+      case PARTIAL_TEXT -> Html.text.matchesSubstring(actualText, expectedText);
+                                                                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Value.java:33: error: illegal start of expression
+    return switch (textCheck) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Value.java:34: error: : expected
+      case FULL_TEXT -> Html.text.equals(value, expectedValue);
+                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/Value.java:35: error: : expected
+      case PARTIAL_TEXT -> Html.text.contains(value, expectedValue);
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java:32: error: illegal start of expression
+    return switch (formatted.verdict()) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java:33: error: : expected
+      case REJECT -> formatted;
+                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java:36: error: not a statement
+        yield new CheckResult(matches(localDateValue), formatCondition.format(localDateValue));
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java:36: error: ';' expected
+        yield new CheckResult(matches(localDateValue), formatCondition.format(localDateValue));
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/conditions/datetime/TemporalCondition.java:37: error: : expected
+      }
+       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java:54: error: ')' expected
+    if (webDriver instanceof HasAuthentication hasAuthentication && credentials instanceof BasicAuthCredentials basicAuth) {
+                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java:54: error: not a statement
+    if (webDriver instanceof HasAuthentication hasAuthentication && credentials instanceof BasicAuthCredentials basicAuth) {
+                                                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java:54: error: ';' expected
+    if (webDriver instanceof HasAuthentication hasAuthentication && credentials instanceof BasicAuthCredentials basicAuth) {
+                                                                                                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java:54: error: not a statement
+    if (webDriver instanceof HasAuthentication hasAuthentication && credentials instanceof BasicAuthCredentials basicAuth) {
+                                                                                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/drivercommands/BasicAuthUtils.java:54: error: ';' expected
+    if (webDriver instanceof HasAuthentication hasAuthentication && credentials instanceof BasicAuthCredentials basicAuth) {
+                                                                                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/UIAssertionError.java:113: error: ';' expected
+    UIAssertionError uiError = error instanceof UIAssertionError uiAssertionError ?
+                                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/ex/UIAssertionError.java:113: error: not a statement
+    UIAssertionError uiError = error instanceof UIAssertionError uiAssertionError ?
+                                                                                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Cleanup.java:80: error: ')' expected
+    return (error instanceof InvalidSelectorException invalidSelectorException) ?
+                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Cleanup.java:80: error: not a statement
+    return (error instanceof InvalidSelectorException invalidSelectorException) ?
+                                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/Cleanup.java:80: error: ';' expected
+    return (error instanceof InvalidSelectorException invalidSelectorException) ?
+                                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileToFolder.java:139: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var newTimes = folder.modificationTimes();
+          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:102: error: ')' expected
+    if (arg instanceof By by) {
+                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:102: error: not a statement
+    if (arg instanceof By by) {
+                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:102: error: ';' expected
+    if (arg instanceof By by) {
+                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:105: error: ')' expected
+    if (arg instanceof String cssLocator) {
+                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:105: error: not a statement
+    if (arg instanceof String cssLocator) {
+                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/ElementFinder.java:105: error: ';' expected
+    if (arg instanceof String cssLocator) {
+                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:53: error: ';' expected
+    SearchContext unwrappedContext = context instanceof WrapsDriver wrapsDriver ?
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:53: error: not a statement
+    SearchContext unwrappedContext = context instanceof WrapsDriver wrapsDriver ?
+                                                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:56: error: ';' expected
+    return unwrappedContext instanceof JavascriptExecutor jsExecutor ?
+                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:56: error: not a statement
+    return unwrappedContext instanceof JavascriptExecutor jsExecutor ?
+                                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementDescriber.java:45: error: ')' expected
+      if (element instanceof SelenideElement selenideElement) {
+                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementDescriber.java:45: error: not a statement
+      if (element instanceof SelenideElement selenideElement) {
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenideElementDescriber.java:45: error: ';' expected
+      if (element instanceof SelenideElement selenideElement) {
+                                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:106: error: ')' expected
+    if (as != null && fieldValue instanceof SelenideElement element) {
+                                                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:106: error: not a statement
+    if (as != null && fieldValue instanceof SelenideElement element) {
+                                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:106: error: ';' expected
+    if (as != null && fieldValue instanceof SelenideElement element) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:109: error: ')' expected
+    if (as != null && fieldValue instanceof ElementsCollection collection) {
+                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:109: error: not a statement
+    if (as != null && fieldValue instanceof ElementsCollection collection) {
+                                                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:109: error: ';' expected
+    if (as != null && fieldValue instanceof ElementsCollection collection) {
+                                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:176: error: ';' expected
+    Type[] genericTypes = field.getGenericType() instanceof ParameterizedType parameterizedType ?
+                                                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:176: error: not a statement
+    Type[] genericTypes = field.getGenericType() instanceof ParameterizedType parameterizedType ?
+                                                                                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:318: error: ')' expected
+    else if (firstType instanceof Class<?> classType) {
+                                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:318: error: not a statement
+    else if (firstType instanceof Class<?> classType) {
+                                           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/SelenidePageFactory.java:318: error: ';' expected
+    else if (firstType instanceof Class<?> classType) {
+                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:23: error: class, interface, or enum expected
+public record WebDriverInstance(
+       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:26: error: class, interface, or enum expected
+  @Nullable SelenideProxyServer proxy,
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:27: error: class, interface, or enum expected
+  @Nullable DownloadsFolder downloadsFolder) implements Disposable {
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:29: error: class, interface, or enum expected
+  private static final CloseDriverCommand closeDriverCommand = new CloseDriverCommand();
+                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:31: error: class, interface, or enum expected
+  public WebDriverInstance {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:33: error: class, interface, or enum expected
+    requireNonNull(webDriver, "webDriver must not be null");
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:34: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:39: error: class, interface, or enum expected
+  public SelenideProxyServer proxy() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:42: error: class, interface, or enum expected
+    }
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:45: error: class, interface, or enum expected
+    }
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:48: error: class, interface, or enum expected
+    }
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:50: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:53: error: class, interface, or enum expected
+  public void dispose() {
+         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebDriverInstance.java:55: error: class, interface, or enum expected
+  }
+  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSelector.java:68: error: ';' expected
+    return context instanceof SelenideElement selenideElement ?
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSelector.java:68: error: not a statement
+    return context instanceof SelenideElement selenideElement ?
+                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSelector.java:74: error: ';' expected
+    return context instanceof SelenideElement selenideElement ?
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSelector.java:74: error: not a statement
+    return context instanceof SelenideElement selenideElement ?
+                                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:97: error: ')' expected
+    if (arg instanceof By by) return by;
+                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:97: error: not a statement
+    if (arg instanceof By by) return by;
+                          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:97: error: ';' expected
+    if (arg instanceof By by) return by;
+                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:98: error: ')' expected
+    if (arg instanceof String cssSelector) return By.cssSelector(cssSelector);
+                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:98: error: not a statement
+    if (arg instanceof String cssSelector) return By.cssSelector(cssSelector);
+                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:98: error: ';' expected
+    if (arg instanceof String cssSelector) return By.cssSelector(cssSelector);
+                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:135: error: ')' expected
+    if (lastError instanceof UnhandledAlertException unhandledAlertException) {
+                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:135: error: not a statement
+    if (lastError instanceof UnhandledAlertException unhandledAlertException) {
+                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebElementSource.java:135: error: ';' expected
+    if (lastError instanceof UnhandledAlertException unhandledAlertException) {
+                                                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebdriverPhotographer.java:18: error: ')' expected
+    if (driver.getWebDriver() instanceof TakesScreenshot takesScreenshot) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebdriverPhotographer.java:18: error: not a statement
+    if (driver.getWebDriver() instanceof TakesScreenshot takesScreenshot) {
+                                                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/impl/WebdriverPhotographer.java:18: error: ';' expected
+    if (driver.getWebDriver() instanceof TakesScreenshot takesScreenshot) {
+                                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:25: error: ')' expected
+    if (args.length == 1 && args[0] instanceof Object[] objectArray) {
+                                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:25: error: not a statement
+    if (args.length == 1 && args[0] instanceof Object[] objectArray) {
+                                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:25: error: ';' expected
+    if (args.length == 1 && args[0] instanceof Object[] objectArray) {
+                                                                   ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:29: error: ')' expected
+    if (args.length == 1 && args[0] instanceof int[] intArray) {
+                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:29: error: not a statement
+    if (args.length == 1 && args[0] instanceof int[] intArray) {
+                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:29: error: ';' expected
+    if (args.length == 1 && args[0] instanceof int[] intArray) {
+                                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:40: error: illegal start of expression
+    return switch (argsWithoutEmptyVarargs.length) {
+           ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:41: error: : expected
+      case 0 -> "";
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:41: error: illegal start of expression
+      case 0 -> "";
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:42: error: : expected
+      case 1 -> argToString(argsWithoutEmptyVarargs[0]);
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:42: error: illegal start of expression
+      case 1 -> argToString(argsWithoutEmptyVarargs[0]);
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:43: error: : expected
+      default -> '[' + Stream.of(argsWithoutEmptyVarargs).map(ArgumentsPrinter::argToString).collect(joining(", ")) + ']';
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:43: error: illegal start of expression
+      default -> '[' + Stream.of(argsWithoutEmptyVarargs).map(ArgumentsPrinter::argToString).collect(joining(", ")) + ']';
+              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:43: error: not a statement
+      default -> '[' + Stream.of(argsWithoutEmptyVarargs).map(ArgumentsPrinter::argToString).collect(joining(", ")) + ']';
+                                                                                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:61: error: ')' expected
+    if (last instanceof int[] integers && previous instanceof Integer) {
+                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:61: error: not a statement
+    if (last instanceof int[] integers && previous instanceof Integer) {
+                                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:61: error: ';' expected
+    if (last instanceof int[] integers && previous instanceof Integer) {
+                                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:64: error: ')' expected
+    else if (last instanceof Object[] objects && isSameClass(previous, objects)) {
+                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:64: error: not a statement
+    else if (last instanceof Object[] objects && isSameClass(previous, objects)) {
+                                              ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:64: error: ';' expected
+    else if (last instanceof Object[] objects && isSameClass(previous, objects)) {
+                                                                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:64: error: 'else' without 'if'
+    else if (last instanceof Object[] objects && isSameClass(previous, objects)) {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:67: error: 'else' without 'if'
+    else {
+    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:102: error: ')' expected
+    if (arg instanceof Duration duration) {
+                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:102: error: not a statement
+    if (arg instanceof Duration duration) {
+                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:102: error: ';' expected
+    if (arg instanceof Duration duration) {
+                                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:105: error: ')' expected
+    if (arg instanceof Object[] array) {
+                               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:105: error: not a statement
+    if (arg instanceof Object[] array) {
+                                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ArgumentsPrinter.java:105: error: ';' expected
+    if (arg instanceof Object[] array) {
+                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ErrorsCollector.java:59: error: ')' expected
+    if (errors.size() == 1 && errors.get(0) instanceof AssertionError assertionError) {
+                                                                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ErrorsCollector.java:59: error: not a statement
+    if (errors.size() == 1 && errors.get(0) instanceof AssertionError assertionError) {
+                                                                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/ErrorsCollector.java:59: error: ';' expected
+    if (errors.size() == 1 && errors.get(0) instanceof AssertionError assertionError) {
+                                                                                    ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:58: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var eventsWithNestingLevel = escapeSubjectAndComputeNestingLevel(events);
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:68: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    for (var wrapper : eventsWithNestingLevel) {
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:76: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var stack = new ArrayDeque<LogEventWithNestingLevel.SimpleLogEvent>();
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:77: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var result = new ArrayList<LogEventWithNestingLevel>(events.size());
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:79: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var eventWithEscapedSubject = new LogEventWithNestingLevel.SimpleLogEvent(
+          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:160: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var elementWithIndent = indent(wrapper.nestingLevel) + wrapper.event.getElement();
+          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:183: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var maxLength = 0;
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:184: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    for (var wrapper : events) {
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:196: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var maxLength = MIN_SECOND_COLUMN_WIDTH;
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:198: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    for (var wrapper : events) {
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:224: error: ';' expected
+    private record SimpleLogEvent(
+                                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:226: error: ';' expected
+      String getSubject,
+            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:226: error: not a statement
+      String getSubject,
+             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:226: error: ';' expected
+      String getSubject,
+                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:227: error: <identifier> expected
+      EventStatus getStatus,
+                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:228: error: <identifier> expected
+      long getDuration,
+                       ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:229: error: <identifier> expected
+      long getStartTime,
+                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:231: error: ';' expected
+      Throwable getError
+               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:231: error: not a statement
+      Throwable getError
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:231: error: ';' expected
+      Throwable getError
+                        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:232: error: not a statement
+    ) implements LogEvent {
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:232: error: ';' expected
+    ) implements LogEvent {
+                         ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:237: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    var builder = new StringBuilder((int) (text.length() * 1.5));
+        ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:239: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+      var symbol = text.charAt(i);
+          ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:242: error: : expected
+        case '\t' -> builder.append("\\t");
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:242: error: illegal start of expression
+        case '\t' -> builder.append("\\t");
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:243: error: : expected
+        case '\r' -> builder.append("\\r");
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:243: error: illegal start of expression
+        case '\r' -> builder.append("\\r");
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:244: error: : expected
+        case '\n' -> builder.append("\\n");
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:244: error: illegal start of expression
+        case '\n' -> builder.append("\\n");
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:245: error: : expected
+        case '\f' -> builder.append("\\f");
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:245: error: illegal start of expression
+        case '\f' -> builder.append("\\f");
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:246: error: : expected
+        case '\b' -> builder.append("\\b");
+                 ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:246: error: illegal start of expression
+        case '\b' -> builder.append("\\b");
+                  ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:247: error: : expected
+        case '\u00A0' -> builder.append("\\u00A0");
+                     ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:247: error: illegal start of expression
+        case '\u00A0' -> builder.append("\\u00A0");
+                      ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:248: error: : expected
+        default -> {
+               ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/logevents/SimpleReport.java:248: error: illegal start of expression
+        default -> {
+                ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:82: error: ')' expected
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:82: error: not a statement
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:82: error: ';' expected
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:143: error: ')' expected
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:143: error: not a statement
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                             ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:143: error: ';' expected
+    if (webdriver instanceof HasCapabilities hasCapabilities) {
+                                                            ^
+/scratch/jmsy/outdir/selenide-e158da6d8fc67d86d32b7bd4d8c0317004ac8992/selenide/src/main/java/com/codeborne/selenide/webdriver/WebDriverFactory.java:147: error: 'else' without 'if'
+    } else {
+      ^
+283 errors
+14 warnings

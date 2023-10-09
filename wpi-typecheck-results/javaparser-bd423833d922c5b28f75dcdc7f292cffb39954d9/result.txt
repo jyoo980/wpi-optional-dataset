@@ -1,0 +1,74 @@
+PREFER_MAP_AND_ORELSE = 0
+PREFER_IFPRESENT = 0
+INTRODUCE_ELIMINATE = 0
+OPTIONAL_AS_ELEMENT_TYPE = 0
+OPTIONAL_COLLECTION = 0
+OPTIONAL_FIELD = 0
+OPTIONAL_PARAMETER = 1
+METHOD_INVOCATIONS
+
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver
+call to get() not allowed on the given receiver

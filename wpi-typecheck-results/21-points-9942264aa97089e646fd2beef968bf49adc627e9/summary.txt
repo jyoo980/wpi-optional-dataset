@@ -8,5 +8,10 @@
        the given receiver.
           found   : @MaybePresent Optional</*RAW*/>
           required: @Present Optional</*RAW*/>
+
+         return userRepository.findOneWithAuthoritiesByLogin(lowercaseLogin)
+             .map(user -> createSpringSecurityUser(lowercaseLogin, user))
+             .orElseThrow(() -> new UsernameNotFoundException("User " + lowercaseLogin + " was not found in the database"));
+
   - 3: [methodref.receiver]: incompatible reference type. Might be false
        positive, see https://github.com/typetools/checker-framework/issues/6210.
