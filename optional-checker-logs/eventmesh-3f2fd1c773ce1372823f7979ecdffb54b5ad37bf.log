@@ -1,0 +1,251 @@
+10:11:41 a.m.: Executing ':classes :testClasses :eventmesh-admin:classes :eventmesh-admin:testClasses :eventmesh-common:classes :eventmesh-common:testClasses :eventmesh-connectors:classes :eventmesh-connectors:testClasses :eventmesh-examples:classes :eventmesh-examples:testClasses :eventmesh-meta:classes :eventmesh-meta:testClasses :eventmesh-metrics-plugin:classes :eventmesh-metrics-plugin:testClasses :eventmesh-openconnect:classes :eventmesh-openconnect:testClasses :eventmesh-protocol-plugin:classes :eventmesh-protocol-plugin:testClasses :eventmesh-runtime:classes :eventmesh-runtime:testClasses :eventmesh-sdks:classes :eventmesh-sdks:testClasses :eventmesh-security-plugin:classes :eventmesh-security-plugin:testClasses :eventmesh-spi:classes :eventmesh-spi:testClasses :eventmesh-starter:classes :eventmesh-starter:testClasses :eventmesh-storage-plugin:classes :eventmesh-storage-plugin:testClasses :eventmesh-trace-plugin:classes :eventmesh-trace-plugin:testClasses :eventmesh-webhook:classes :eventmesh-webhook:testClasses :eventmesh-admin:eventmesh-admin-rocketmq:classes :eventmesh-admin:eventmesh-admin-rocketmq:testClasses :eventmesh-connectors:eventmesh-connector-jdbc:classes :eventmesh-connectors:eventmesh-connector-jdbc:testClasses :eventmesh-connectors:eventmesh-connector-kafka:classes :eventmesh-connectors:eventmesh-connector-kafka:testClasses :eventmesh-connectors:eventmesh-connector-mongodb:classes :eventmesh-connectors:eventmesh-connector-mongodb:testClasses :eventmesh-connectors:eventmesh-connector-openfunction:classes :eventmesh-connectors:eventmesh-connector-openfunction:testClasses :eventmesh-connectors:eventmesh-connector-pravega:classes :eventmesh-connectors:eventmesh-connector-pravega:testClasses :eventmesh-connectors:eventmesh-connector-pulsar:classes :eventmesh-connectors:eventmesh-connector-pulsar:testClasses :eventmesh-connectors:eventmesh-connector-rabbitmq:classes :eventmesh-connectors:eventmesh-connector-rabbitmq:testClasses :eventmesh-connectors:eventmesh-connector-redis:classes :eventmesh-connectors:eventmesh-connector-redis:testClasses :eventmesh-connectors:eventmesh-connector-rocketmq:classes :eventmesh-connectors:eventmesh-connector-rocketmq:testClasses :eventmesh-connectors:eventmesh-connector-s3:classes :eventmesh-connectors:eventmesh-connector-s3:testClasses :eventmesh-meta:eventmesh-meta-api:classes :eventmesh-meta:eventmesh-meta-api:testClasses :eventmesh-meta:eventmesh-meta-consul:classes :eventmesh-meta:eventmesh-meta-consul:testClasses :eventmesh-meta:eventmesh-meta-etcd:classes :eventmesh-meta:eventmesh-meta-etcd:testClasses :eventmesh-meta:eventmesh-meta-nacos:classes :eventmesh-meta:eventmesh-meta-nacos:testClasses :eventmesh-meta:eventmesh-meta-zookeeper:classes :eventmesh-meta:eventmesh-meta-zookeeper:testClasses :eventmesh-metrics-plugin:eventmesh-metrics-api:classes :eventmesh-metrics-plugin:eventmesh-metrics-api:testClasses :eventmesh-metrics-plugin:eventmesh-metrics-prometheus:classes :eventmesh-metrics-plugin:eventmesh-metrics-prometheus:testClasses :eventmesh-openconnect:eventmesh-openconnect-java:classes :eventmesh-openconnect:eventmesh-openconnect-java:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-api:classes :eventmesh-protocol-plugin:eventmesh-protocol-api:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-cloudevents:classes :eventmesh-protocol-plugin:eventmesh-protocol-cloudevents:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-grpc:classes :eventmesh-protocol-plugin:eventmesh-protocol-grpc:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-grpcmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-grpcmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-http:classes :eventmesh-protocol-plugin:eventmesh-protocol-http:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-meshmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-meshmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-openmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-openmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-webhook:classes :eventmesh-protocol-plugin:eventmesh-protocol-webhook:testClasses :eventmesh-sdks:eventmesh-sdk-java:classes :eventmesh-sdks:eventmesh-sdk-java:testClasses :eventmesh-security-plugin:eventmesh-security-acl:classes :eventmesh-security-plugin:eventmesh-security-acl:testClasses :eventmesh-security-plugin:eventmesh-security-api:classes :eventmesh-security-plugin:eventmesh-security-api:testClasses :eventmesh-security-plugin:eventmesh-security-auth-http-basic:classes :eventmesh-security-plugin:eventmesh-security-auth-http-basic:testClasses :eventmesh-security-plugin:eventmesh-security-auth-token:classes :eventmesh-security-plugin:eventmesh-security-auth-token:testClasses :eventmesh-storage-plugin:eventmesh-storage-api:classes :eventmesh-storage-plugin:eventmesh-storage-api:testClasses :eventmesh-storage-plugin:eventmesh-storage-kafka:classes :eventmesh-storage-plugin:eventmesh-storage-kafka:testClasses :eventmesh-storage-plugin:eventmesh-storage-knative:classes :eventmesh-storage-plugin:eventmesh-storage-knative:testClasses :eventmesh-storage-plugin:eventmesh-storage-mongodb:classes :eventmesh-storage-plugin:eventmesh-storage-mongodb:testClasses :eventmesh-storage-plugin:eventmesh-storage-pravega:classes :eventmesh-storage-plugin:eventmesh-storage-pravega:testClasses :eventmesh-storage-plugin:eventmesh-storage-pulsar:classes :eventmesh-storage-plugin:eventmesh-storage-pulsar:testClasses :eventmesh-storage-plugin:eventmesh-storage-rabbitmq:classes :eventmesh-storage-plugin:eventmesh-storage-rabbitmq:testClasses :eventmesh-storage-plugin:eventmesh-storage-redis:classes :eventmesh-storage-plugin:eventmesh-storage-redis:testClasses :eventmesh-storage-plugin:eventmesh-storage-rocketmq:classes :eventmesh-storage-plugin:eventmesh-storage-rocketmq:testClasses :eventmesh-storage-plugin:eventmesh-storage-standalone:classes :eventmesh-storage-plugin:eventmesh-storage-standalone:testClasses :eventmesh-trace-plugin:eventmesh-trace-api:classes :eventmesh-trace-plugin:eventmesh-trace-api:testClasses :eventmesh-trace-plugin:eventmesh-trace-jaeger:classes :eventmesh-trace-plugin:eventmesh-trace-jaeger:testClasses :eventmesh-trace-plugin:eventmesh-trace-pinpoint:classes :eventmesh-trace-plugin:eventmesh-trace-pinpoint:testClasses :eventmesh-trace-plugin:eventmesh-trace-zipkin:classes :eventmesh-trace-plugin:eventmesh-trace-zipkin:testClasses :eventmesh-webhook:eventmesh-webhook-admin:classes :eventmesh-webhook:eventmesh-webhook-admin:testClasses :eventmesh-webhook:eventmesh-webhook-api:classes :eventmesh-webhook:eventmesh-webhook-api:testClasses :eventmesh-webhook:eventmesh-webhook-receive:classes :eventmesh-webhook:eventmesh-webhook-receive:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-api:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-api:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-nacos:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-nacos:testClasses'...
+
+
+> Configure project :
+eventmesh-1.9.0-release.jar
+eventmesh-admin-1.9.0-release.jar
+eventmesh-common-1.9.0-release.jar
+eventmesh-connectors-1.9.0-release.jar
+eventmesh-examples-1.9.0-release.jar
+eventmesh-meta-1.9.0-release.jar
+eventmesh-metrics-plugin-1.9.0-release.jar
+eventmesh-openconnect-1.9.0-release.jar
+eventmesh-protocol-plugin-1.9.0-release.jar
+eventmesh-runtime-1.9.0-release.jar
+eventmesh-sdks-1.9.0-release.jar
+eventmesh-security-plugin-1.9.0-release.jar
+eventmesh-spi-1.9.0-release.jar
+eventmesh-starter-1.9.0-release.jar
+eventmesh-storage-plugin-1.9.0-release.jar
+eventmesh-trace-plugin-1.9.0-release.jar
+eventmesh-webhook-1.9.0-release.jar
+eventmesh-admin-rocketmq-1.9.0-release.jar
+eventmesh-connector-jdbc-1.9.0-release.jar
+eventmesh-connector-kafka-1.9.0-release.jar
+eventmesh-connector-mongodb-1.9.0-release.jar
+eventmesh-connector-openfunction-1.9.0-release.jar
+eventmesh-connector-pravega-1.9.0-release.jar
+eventmesh-connector-pulsar-1.9.0-release.jar
+eventmesh-connector-rabbitmq-1.9.0-release.jar
+eventmesh-connector-redis-1.9.0-release.jar
+eventmesh-connector-rocketmq-1.9.0-release.jar
+eventmesh-connector-s3-1.9.0-release.jar
+eventmesh-meta-api-1.9.0-release.jar
+eventmesh-meta-consul-1.9.0-release.jar
+eventmesh-meta-etcd-1.9.0-release.jar
+eventmesh-meta-nacos-1.9.0-release.jar
+eventmesh-meta-zookeeper-1.9.0-release.jar
+eventmesh-metrics-api-1.9.0-release.jar
+eventmesh-metrics-prometheus-1.9.0-release.jar
+eventmesh-openconnect-java-1.9.0-release.jar
+eventmesh-openconnect-offsetmgmt-plugin-1.9.0-release.jar
+eventmesh-protocol-api-1.9.0-release.jar
+eventmesh-protocol-cloudevents-1.9.0-release.jar
+eventmesh-protocol-grpc-1.9.0-release.jar
+eventmesh-protocol-grpcmessage-1.9.0-release.jar
+eventmesh-protocol-http-1.9.0-release.jar
+eventmesh-protocol-meshmessage-1.9.0-release.jar
+eventmesh-protocol-openmessage-1.9.0-release.jar
+eventmesh-protocol-webhook-1.9.0-release.jar
+eventmesh-sdk-java-1.9.0-release.jar
+eventmesh-security-acl-1.9.0-release.jar
+eventmesh-security-api-1.9.0-release.jar
+eventmesh-security-auth-http-basic-1.9.0-release.jar
+eventmesh-security-auth-token-1.9.0-release.jar
+eventmesh-storage-api-1.9.0-release.jar
+eventmesh-storage-kafka-1.9.0-release.jar
+eventmesh-storage-knative-1.9.0-release.jar
+eventmesh-storage-mongodb-1.9.0-release.jar
+eventmesh-storage-pravega-1.9.0-release.jar
+eventmesh-storage-pulsar-1.9.0-release.jar
+eventmesh-storage-rabbitmq-1.9.0-release.jar
+eventmesh-storage-redis-1.9.0-release.jar
+eventmesh-storage-rocketmq-1.9.0-release.jar
+eventmesh-storage-standalone-1.9.0-release.jar
+eventmesh-trace-api-1.9.0-release.jar
+eventmesh-trace-jaeger-1.9.0-release.jar
+eventmesh-trace-pinpoint-1.9.0-release.jar
+eventmesh-trace-zipkin-1.9.0-release.jar
+eventmesh-webhook-admin-1.9.0-release.jar
+eventmesh-webhook-api-1.9.0-release.jar
+eventmesh-webhook-receive-1.9.0-release.jar
+eventmesh-openconnect-offsetmgmt-api-1.9.0-release.jar
+eventmesh-openconnect-offsetmgmt-nacos-1.9.0-release.jar
+No explicit dependency on the Checker Framework found, using default version 3.39.0
+
+> Task :createCheckerFrameworkManifest UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :eventmesh-admin:createCheckerFrameworkManifest
+> Task :eventmesh-admin:compileJava NO-SOURCE
+> Task :eventmesh-admin:processResources NO-SOURCE
+> Task :eventmesh-admin:classes UP-TO-DATE
+> Task :eventmesh-admin:compileTestJava NO-SOURCE
+> Task :eventmesh-admin:processTestResources NO-SOURCE
+> Task :eventmesh-admin:testClasses UP-TO-DATE
+> Task :eventmesh-common:createCheckerFrameworkManifest
+
+> Task :eventmesh-common:compileJava
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/ConfigMonitorService.java:56: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+                boolean isAccessible = field.isAccessible();
+                                            ^
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/ConvertValue.java:61: warning: [introduce.eliminate] It is bad style to create an Optional just to chain methods to get a value.
+            value = Optional.ofNullable(System.getProperty(fieldName)).orElse(System.getenv(fieldName));
+                                                                             ^
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/converter/ObjectConverter.java:69: warning: [deprecation] newInstance() in Class has been deprecated
+            this.object = convertInfo.getClazz().newInstance();
+                                                ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/converter/ObjectConverter.java:108: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+            boolean isAccessible = field.isAccessible();
+                                        ^
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/converter/ObjectConverter.java:148: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+            boolean isAccessible = method.isAccessible();
+                                         ^
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/converter/MapConverter.java:49: warning: [deprecation] newInstance() in Class has been deprecated
+                map = (Map<String, Object>) convertInfo.getField().getType().newInstance();
+                                                                            ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/converter/ListConverter.java:63: warning: [deprecation] newInstance() in Class has been deprecated
+                list = (List<Object>) convertInfo.getField().getType().newInstance();
+                                                                      ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/config/convert/ConverterMap.java:106: warning: [deprecation] newInstance() in Class has been deprecated
+                    ConvertValue<?> convertValue = (ConvertValue<?>) converter1.newInstance();
+                                                                               ^
+  where T is a type-variable:
+    T extends Object declared in class Class
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/protocol/grpc/common/EventMeshCloudEventUtils.java:278: warning: [introduce.eliminate] It is bad style to create an Optional just to chain methods to get a value.
+            return Optional.of(cloudEvent.getTextData()).get();
+                                                            ^
+/Users/yoo/manual-annos/eventmesh/eventmesh-common/src/main/java/org/apache/eventmesh/common/protocol/grpc/common/EventMeshCloudEventUtils.java:295: warning: [introduce.eliminate] It is bad style to create an Optional just to chain methods to get a value.
+        Map<String, CloudEventAttributeValue> attributesMap = Optional.of(cloudEvent.getAttributesMap()).get();
+                                                                                                            ^
+10 warnings
+
+> Task :eventmesh-common:processResources NO-SOURCE
+> Task :eventmesh-common:classes
+
+> Task :eventmesh-common:compileTestJava
+
+> Task :eventmesh-common:processTestResources UP-TO-DATE
+> Task :eventmesh-common:testClasses
+> Task :eventmesh-connectors:createCheckerFrameworkManifest
+> Task :eventmesh-connectors:compileJava NO-SOURCE
+> Task :eventmesh-connectors:processResources NO-SOURCE
+> Task :eventmesh-connectors:classes UP-TO-DATE
+> Task :eventmesh-connectors:compileTestJava NO-SOURCE
+> Task :eventmesh-connectors:processTestResources NO-SOURCE
+> Task :eventmesh-connectors:testClasses UP-TO-DATE
+> Task :eventmesh-examples:createCheckerFrameworkManifest
+> Task :eventmesh-spi:createCheckerFrameworkManifest
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/yoo/manual-annos/eventmesh/eventmesh-common/src/test/java/org/apache/eventmesh/common/loadbalance/WeightTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :eventmesh-spi:compileJava
+> Task :eventmesh-sdks:eventmesh-sdk-java:createCheckerFrameworkManifest
+
+> Task :eventmesh-sdks:eventmesh-sdk-java:compileJava
+/Users/yoo/manual-annos/eventmesh/eventmesh-sdks/eventmesh-sdk-java/src/main/java/org/apache/eventmesh/client/grpc/producer/EventMeshGrpcProducer.java:99: warning: [unchecked] unchecked cast
+            return (T) cloudEvent;
+                       ^
+  required: T
+  found:    CloudEvent
+  where T is a type-variable:
+    T extends Object declared in method <T>requestReply(T,long)
+/Users/yoo/manual-annos/eventmesh/eventmesh-sdks/eventmesh-sdk-java/src/main/java/org/apache/eventmesh/client/grpc/producer/EventMeshGrpcProducer.java:101: warning: [unchecked] unchecked cast
+            return (T) eventMeshMessageProducer.requestReply((EventMeshMessage) message, timeout);
+                                                            ^
+  required: T
+  found:    EventMeshMessage
+  where T is a type-variable:
+    T extends Object declared in method <T>requestReply(T,long)
+/Users/yoo/manual-annos/eventmesh/eventmesh-sdks/eventmesh-sdk-java/src/main/java/org/apache/eventmesh/client/http/consumer/EventMeshHttpConsumer.java:72: warning: [introduce.eliminate] It is bad style to create an Optional just to chain methods to get a value.
+        this.consumeExecutor = Optional.ofNullable(customExecutor).orElseGet(
+                                                                            ^
+3 warnings
+
+> Task :eventmesh-storage-plugin:eventmesh-storage-api:createCheckerFrameworkManifest
+> Task :eventmesh-storage-plugin:eventmesh-storage-api:compileJava
+> Task :eventmesh-examples:compileJava
+> Task :eventmesh-examples:processResources UP-TO-DATE
+> Task :eventmesh-examples:classes
+> Task :eventmesh-examples:compileTestJava NO-SOURCE
+> Task :eventmesh-examples:processTestResources NO-SOURCE
+> Task :eventmesh-examples:testClasses UP-TO-DATE
+> Task :eventmesh-meta:createCheckerFrameworkManifest
+> Task :eventmesh-meta:compileJava NO-SOURCE
+> Task :eventmesh-meta:processResources NO-SOURCE
+> Task :eventmesh-meta:classes UP-TO-DATE
+> Task :eventmesh-meta:compileTestJava NO-SOURCE
+> Task :eventmesh-meta:processTestResources NO-SOURCE
+> Task :eventmesh-meta:testClasses UP-TO-DATE
+> Task :eventmesh-metrics-plugin:createCheckerFrameworkManifest
+> Task :eventmesh-metrics-plugin:compileJava NO-SOURCE
+> Task :eventmesh-metrics-plugin:processResources NO-SOURCE
+> Task :eventmesh-metrics-plugin:classes UP-TO-DATE
+> Task :eventmesh-metrics-plugin:compileTestJava NO-SOURCE
+> Task :eventmesh-metrics-plugin:processTestResources NO-SOURCE
+> Task :eventmesh-metrics-plugin:testClasses UP-TO-DATE
+> Task :eventmesh-openconnect:createCheckerFrameworkManifest
+> Task :eventmesh-openconnect:compileJava NO-SOURCE
+> Task :eventmesh-openconnect:processResources NO-SOURCE
+> Task :eventmesh-openconnect:classes UP-TO-DATE
+> Task :eventmesh-openconnect:compileTestJava NO-SOURCE
+> Task :eventmesh-openconnect:processTestResources NO-SOURCE
+> Task :eventmesh-openconnect:testClasses UP-TO-DATE
+> Task :eventmesh-protocol-plugin:createCheckerFrameworkManifest
+> Task :eventmesh-protocol-plugin:compileJava NO-SOURCE
+> Task :eventmesh-protocol-plugin:processResources NO-SOURCE
+> Task :eventmesh-protocol-plugin:classes UP-TO-DATE
+> Task :eventmesh-protocol-plugin:compileTestJava NO-SOURCE
+> Task :eventmesh-protocol-plugin:processTestResources NO-SOURCE
+> Task :eventmesh-protocol-plugin:testClasses UP-TO-DATE
+> Task :eventmesh-runtime:createCheckerFrameworkManifest
+> Task :eventmesh-admin:eventmesh-admin-rocketmq:createCheckerFrameworkManifest
+
+> Task :eventmesh-admin:eventmesh-admin-rocketmq:compileJava
+
+> Task :eventmesh-meta:eventmesh-meta-api:createCheckerFrameworkManifest
+/Users/yoo/manual-annos/eventmesh/eventmesh-admin/eventmesh-admin-rocketmq/src/main/java/org/apache/eventmesh/admin/rocketmq/response/TopicResponse.java:36: warning: [optional.field] Don't use Optional as the type of a field.
+    private Optional<String> warnMeAboutThis;
+                             ^
+1 warning
+> Task :eventmesh-meta:eventmesh-meta-api:compileJava
+> Task :eventmesh-meta:eventmesh-meta-nacos:createCheckerFrameworkManifest
+> Task :eventmesh-meta:eventmesh-meta-nacos:compileJava
+> Task :eventmesh-metrics-plugin:eventmesh-metrics-api:createCheckerFrameworkManifest
+
+> Task :eventmesh-metrics-plugin:eventmesh-metrics-api:compileJava FAILED
+29 actionable tasks: 26 executed, 3 up-to-date
+/Users/yoo/manual-annos/eventmesh/eventmesh-metrics-plugin/eventmesh-metrics-api/src/main/java/org/apache/eventmesh/metrics/api/model/HttpSummaryMetrics.java:441: error: [method.invocation] call to get() not allowed on the given receiver.
+        int sum = linkedList.stream().reduce(Integer::sum).get();
+                                                              ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':eventmesh-metrics-plugin:eventmesh-metrics-api:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 33s
+10:12:15 a.m.: Execution finished ':classes :testClasses :eventmesh-admin:classes :eventmesh-admin:testClasses :eventmesh-common:classes :eventmesh-common:testClasses :eventmesh-connectors:classes :eventmesh-connectors:testClasses :eventmesh-examples:classes :eventmesh-examples:testClasses :eventmesh-meta:classes :eventmesh-meta:testClasses :eventmesh-metrics-plugin:classes :eventmesh-metrics-plugin:testClasses :eventmesh-openconnect:classes :eventmesh-openconnect:testClasses :eventmesh-protocol-plugin:classes :eventmesh-protocol-plugin:testClasses :eventmesh-runtime:classes :eventmesh-runtime:testClasses :eventmesh-sdks:classes :eventmesh-sdks:testClasses :eventmesh-security-plugin:classes :eventmesh-security-plugin:testClasses :eventmesh-spi:classes :eventmesh-spi:testClasses :eventmesh-starter:classes :eventmesh-starter:testClasses :eventmesh-storage-plugin:classes :eventmesh-storage-plugin:testClasses :eventmesh-trace-plugin:classes :eventmesh-trace-plugin:testClasses :eventmesh-webhook:classes :eventmesh-webhook:testClasses :eventmesh-admin:eventmesh-admin-rocketmq:classes :eventmesh-admin:eventmesh-admin-rocketmq:testClasses :eventmesh-connectors:eventmesh-connector-jdbc:classes :eventmesh-connectors:eventmesh-connector-jdbc:testClasses :eventmesh-connectors:eventmesh-connector-kafka:classes :eventmesh-connectors:eventmesh-connector-kafka:testClasses :eventmesh-connectors:eventmesh-connector-mongodb:classes :eventmesh-connectors:eventmesh-connector-mongodb:testClasses :eventmesh-connectors:eventmesh-connector-openfunction:classes :eventmesh-connectors:eventmesh-connector-openfunction:testClasses :eventmesh-connectors:eventmesh-connector-pravega:classes :eventmesh-connectors:eventmesh-connector-pravega:testClasses :eventmesh-connectors:eventmesh-connector-pulsar:classes :eventmesh-connectors:eventmesh-connector-pulsar:testClasses :eventmesh-connectors:eventmesh-connector-rabbitmq:classes :eventmesh-connectors:eventmesh-connector-rabbitmq:testClasses :eventmesh-connectors:eventmesh-connector-redis:classes :eventmesh-connectors:eventmesh-connector-redis:testClasses :eventmesh-connectors:eventmesh-connector-rocketmq:classes :eventmesh-connectors:eventmesh-connector-rocketmq:testClasses :eventmesh-connectors:eventmesh-connector-s3:classes :eventmesh-connectors:eventmesh-connector-s3:testClasses :eventmesh-meta:eventmesh-meta-api:classes :eventmesh-meta:eventmesh-meta-api:testClasses :eventmesh-meta:eventmesh-meta-consul:classes :eventmesh-meta:eventmesh-meta-consul:testClasses :eventmesh-meta:eventmesh-meta-etcd:classes :eventmesh-meta:eventmesh-meta-etcd:testClasses :eventmesh-meta:eventmesh-meta-nacos:classes :eventmesh-meta:eventmesh-meta-nacos:testClasses :eventmesh-meta:eventmesh-meta-zookeeper:classes :eventmesh-meta:eventmesh-meta-zookeeper:testClasses :eventmesh-metrics-plugin:eventmesh-metrics-api:classes :eventmesh-metrics-plugin:eventmesh-metrics-api:testClasses :eventmesh-metrics-plugin:eventmesh-metrics-prometheus:classes :eventmesh-metrics-plugin:eventmesh-metrics-prometheus:testClasses :eventmesh-openconnect:eventmesh-openconnect-java:classes :eventmesh-openconnect:eventmesh-openconnect-java:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-api:classes :eventmesh-protocol-plugin:eventmesh-protocol-api:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-cloudevents:classes :eventmesh-protocol-plugin:eventmesh-protocol-cloudevents:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-grpc:classes :eventmesh-protocol-plugin:eventmesh-protocol-grpc:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-grpcmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-grpcmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-http:classes :eventmesh-protocol-plugin:eventmesh-protocol-http:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-meshmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-meshmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-openmessage:classes :eventmesh-protocol-plugin:eventmesh-protocol-openmessage:testClasses :eventmesh-protocol-plugin:eventmesh-protocol-webhook:classes :eventmesh-protocol-plugin:eventmesh-protocol-webhook:testClasses :eventmesh-sdks:eventmesh-sdk-java:classes :eventmesh-sdks:eventmesh-sdk-java:testClasses :eventmesh-security-plugin:eventmesh-security-acl:classes :eventmesh-security-plugin:eventmesh-security-acl:testClasses :eventmesh-security-plugin:eventmesh-security-api:classes :eventmesh-security-plugin:eventmesh-security-api:testClasses :eventmesh-security-plugin:eventmesh-security-auth-http-basic:classes :eventmesh-security-plugin:eventmesh-security-auth-http-basic:testClasses :eventmesh-security-plugin:eventmesh-security-auth-token:classes :eventmesh-security-plugin:eventmesh-security-auth-token:testClasses :eventmesh-storage-plugin:eventmesh-storage-api:classes :eventmesh-storage-plugin:eventmesh-storage-api:testClasses :eventmesh-storage-plugin:eventmesh-storage-kafka:classes :eventmesh-storage-plugin:eventmesh-storage-kafka:testClasses :eventmesh-storage-plugin:eventmesh-storage-knative:classes :eventmesh-storage-plugin:eventmesh-storage-knative:testClasses :eventmesh-storage-plugin:eventmesh-storage-mongodb:classes :eventmesh-storage-plugin:eventmesh-storage-mongodb:testClasses :eventmesh-storage-plugin:eventmesh-storage-pravega:classes :eventmesh-storage-plugin:eventmesh-storage-pravega:testClasses :eventmesh-storage-plugin:eventmesh-storage-pulsar:classes :eventmesh-storage-plugin:eventmesh-storage-pulsar:testClasses :eventmesh-storage-plugin:eventmesh-storage-rabbitmq:classes :eventmesh-storage-plugin:eventmesh-storage-rabbitmq:testClasses :eventmesh-storage-plugin:eventmesh-storage-redis:classes :eventmesh-storage-plugin:eventmesh-storage-redis:testClasses :eventmesh-storage-plugin:eventmesh-storage-rocketmq:classes :eventmesh-storage-plugin:eventmesh-storage-rocketmq:testClasses :eventmesh-storage-plugin:eventmesh-storage-standalone:classes :eventmesh-storage-plugin:eventmesh-storage-standalone:testClasses :eventmesh-trace-plugin:eventmesh-trace-api:classes :eventmesh-trace-plugin:eventmesh-trace-api:testClasses :eventmesh-trace-plugin:eventmesh-trace-jaeger:classes :eventmesh-trace-plugin:eventmesh-trace-jaeger:testClasses :eventmesh-trace-plugin:eventmesh-trace-pinpoint:classes :eventmesh-trace-plugin:eventmesh-trace-pinpoint:testClasses :eventmesh-trace-plugin:eventmesh-trace-zipkin:classes :eventmesh-trace-plugin:eventmesh-trace-zipkin:testClasses :eventmesh-webhook:eventmesh-webhook-admin:classes :eventmesh-webhook:eventmesh-webhook-admin:testClasses :eventmesh-webhook:eventmesh-webhook-api:classes :eventmesh-webhook:eventmesh-webhook-api:testClasses :eventmesh-webhook:eventmesh-webhook-receive:classes :eventmesh-webhook:eventmesh-webhook-receive:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-api:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-api:testClasses :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-nacos:classes :eventmesh-openconnect:eventmesh-openconnect-offsetmgmt-plugin:eventmesh-openconnect-offsetmgmt-nacos:testClasses'.
+

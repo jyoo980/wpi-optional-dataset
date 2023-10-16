@@ -1,0 +1,46 @@
+11:13:50 a.m.: Executing ':classes :testClasses :jmhClasses'...
+
+
+> Configure project :
+No explicit dependency on the Checker Framework found, using default version 3.39.0
+
+> Task :createCheckerFrameworkManifest
+
+> Task :compileJava
+/Users/yoo/manual-annos/java_8_recipes/src/main/java/streams/MaxAndMin.java:45: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+        map.forEach((house, emp) ->
+                            ^
+/Users/yoo/manual-annos/java_8_recipes/src/main/java/optionals/HR.java:59: error: [methodref.receiver] Incompatible receiver type
+                .map(Optional::get)
+                     ^
+  found   : @Present Optional<@MaybePresent Employee>
+  required: @MaybePresent Optional<@MaybePresent Employee>
+  Consequence: method in @MaybePresent Optional<@MaybePresent Employee>
+    @MaybePresent Employee get(@Present Optional<@MaybePresent Employee> this)
+  is not a valid method reference for method in @MaybePresent Function<@MaybePresent Optional<@MaybePresent Employee>, @MaybePresent Employee>
+    @MaybePresent Employee apply(@MaybePresent Function<@MaybePresent Optional<@MaybePresent Employee>, @MaybePresent Employee> this, @MaybePresent Optional<@MaybePresent Employee> p0)
+/Users/yoo/manual-annos/java_8_recipes/src/main/java/optionals/HR.java:67: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+                .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+                         ^
+1 error
+2 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+> Task :compileJava FAILED
+2 actionable tasks: 2 executed
+11:13:56 a.m.: Execution finished ':classes :testClasses :jmhClasses'.
+

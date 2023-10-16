@@ -1,0 +1,249 @@
+> Task :compileJava
+Note: Hibernate JPA 2 Static-Metamodel Generator 5.6.10.Final
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Points.java:30: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "jhi_date", nullable = false)
+    private LocalDate date;
+                      ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Points.java:30: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private LocalDate date;
+                      ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Points.java:43: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 140)] immediately before type, after declaration annotation @Column(name = "notes", length = 140)
+    private String notes;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Points.java:43: warning: [type.anno.before.modifier] write type annotation @Size(max = 140) immediately before type, after modifiers [private]
+    private String notes;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:41: warning: [type.anno.before.decl.anno] write type annotations [@NotNull(), @Pattern(regexp = Constants.LOGIN_REGEX), @Size(min = 1, max = 50)] immediately before type, after declaration annotation @Column(length = 50, unique = true, nullable = false)
+    private String login;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:41: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private String login;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:47: warning: [type.anno.before.decl.anno] write type annotations [@NotNull(), @Size(min = 60, max = 60)] immediately before type, after declaration annotation @Column(name = "password_hash", length = 60, nullable = false)
+    private String password;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:51: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 50)] immediately before type, after declaration annotation @Column(name = "first_name", length = 50)
+    private String firstName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:51: warning: [type.anno.before.modifier] write type annotation @Size(max = 50) immediately before type, after modifiers [private]
+    private String firstName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:55: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 50)] immediately before type, after declaration annotation @Column(name = "last_name", length = 50)
+    private String lastName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:55: warning: [type.anno.before.modifier] write type annotation @Size(max = 50) immediately before type, after modifiers [private]
+    private String lastName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:60: warning: [type.anno.before.decl.anno] write type annotations [@Email(), @Size(min = 5, max = 254)] immediately before type, after declaration annotation @Column(length = 254, unique = true)
+    private String email;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:60: warning: [type.anno.before.modifier] write type annotation @Email() immediately before type, after modifiers [private]
+    private String email;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:64: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(nullable = false)
+    private boolean activated = false;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:64: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private boolean activated = false;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:68: warning: [type.anno.before.decl.anno] write type annotations [@Size(min = 2, max = 10)] immediately before type, after declaration annotation @Column(name = "lang_key", length = 10)
+    private String langKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:68: warning: [type.anno.before.modifier] write type annotation @Size(min = 2, max = 10) immediately before type, after modifiers [private]
+    private String langKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:72: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 256)] immediately before type, after declaration annotation @Column(name = "image_url", length = 256)
+    private String imageUrl;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:72: warning: [type.anno.before.modifier] write type annotation @Size(max = 256) immediately before type, after modifiers [private]
+    private String imageUrl;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:77: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 20)] immediately before type, after declaration annotation @JsonIgnore()
+    private String activationKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:77: warning: [type.anno.before.modifier] write type annotation @Size(max = 20) immediately before type, after modifiers [private]
+    private String activationKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:82: warning: [type.anno.before.decl.anno] write type annotations [@Size(max = 20)] immediately before type, after declaration annotation @JsonIgnore()
+    private String resetKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/User.java:82: warning: [type.anno.before.modifier] write type annotation @Size(max = 20) immediately before type, after modifiers [private]
+    private String resetKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Authority.java:28: warning: [type.anno.before.decl.anno] write type annotations [@NotNull(), @Size(max = 50)] immediately before type, after declaration annotation @Column(length = 50)
+    private String name;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Authority.java:28: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private String name;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Preferences.java:32: warning: [type.anno.before.decl.anno] write type annotations [@NotNull(), @Min(value = 10), @Max(value = 21)] immediately before type, after declaration annotation @Column(name = "weekly_goal", nullable = false)
+    private Integer weeklyGoal;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Preferences.java:32: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private Integer weeklyGoal;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Preferences.java:37: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "weight_units", nullable = false)
+    private Units weightUnits;
+                  ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Preferences.java:37: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private Units weightUnits;
+                  ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Weight.java:30: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "jhi_timestamp", nullable = false)
+    private ZonedDateTime timestamp;
+                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Weight.java:30: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private ZonedDateTime timestamp;
+                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Weight.java:34: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "weight", nullable = false)
+    private Double weight;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/Weight.java:34: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private Double weight;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:30: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "jhi_timestamp", nullable = false)
+    private ZonedDateTime timestamp;
+                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:30: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private ZonedDateTime timestamp;
+                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:34: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "systolic", nullable = false)
+    private Integer systolic;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:34: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private Integer systolic;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:38: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Column(name = "diastolic", nullable = false)
+    private Integer diastolic;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/domain/BloodPressure.java:38: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private Integer diastolic;
+                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/security/DomainUserDetailsService.java:42: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> new UsernameNotFoundException("User with email " + login + " was not found in the database"));
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/security/DomainUserDetailsService.java:49: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+            .orElseThrow(() -> new UsernameNotFoundException("User " + lowercaseLogin + " was not found in the database"));
+                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/UserService.java:180: error: [methodref.receiver] Incompatible receiver type
+                .map(Optional::get)
+                     ^
+  found   : @Present Optional<@MaybePresent Authority>
+  required: @MaybePresent Optional<@MaybePresent Authority>
+  Consequence: method in @MaybePresent Optional<@MaybePresent Authority>
+    @MaybePresent Authority get(@Present Optional<@MaybePresent Authority> this)
+  is not a valid method reference for method in @MaybePresent Function<@MaybePresent Optional<@MaybePresent Authority>, @MaybePresent Authority>
+    @MaybePresent Authority apply(@MaybePresent Function<@MaybePresent Optional<@MaybePresent Authority>, @MaybePresent Authority> this, @MaybePresent Optional<@MaybePresent Authority> p0)
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/UserService.java:220: error: [methodref.receiver] Incompatible receiver type
+                    .map(Optional::get)
+                         ^
+  found   : @Present Optional<@MaybePresent Authority>
+  required: @MaybePresent Optional<@MaybePresent Authority>
+  Consequence: method in @MaybePresent Optional<@MaybePresent Authority>
+    @MaybePresent Authority get(@Present Optional<@MaybePresent Authority> this)
+  is not a valid method reference for method in @MaybePresent Function<@MaybePresent Optional<@MaybePresent Authority>, @MaybePresent Authority>
+    @MaybePresent Authority apply(@MaybePresent Function<@MaybePresent Optional<@MaybePresent Authority>, @MaybePresent Authority> this, @MaybePresent Optional<@MaybePresent Authority> p0)
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/UserService.java:201: error: [methodref.receiver] Incompatible receiver type
+            .map(Optional::get)
+                 ^
+  found   : @Present Optional<@MaybePresent User>
+  required: @MaybePresent Optional<@MaybePresent User>
+  Consequence: method in @MaybePresent Optional<@MaybePresent User>
+    @MaybePresent User get(@Present Optional<@MaybePresent User> this)
+  is not a valid method reference for method in @MaybePresent Function<@MaybePresent Optional<@MaybePresent User>, @MaybePresent User>
+    @MaybePresent User apply(@MaybePresent Function<@MaybePresent Optional<@MaybePresent User>, @MaybePresent User> this, @MaybePresent Optional<@MaybePresent User> p0)
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:24: warning: [type.anno.before.modifier] write type annotation @NotBlank() immediately before type, after modifiers [private]
+    private String login;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:27: warning: [type.anno.before.modifier] write type annotation @Size(max = 50) immediately before type, after modifiers [private]
+    private String firstName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:30: warning: [type.anno.before.modifier] write type annotation @Size(max = 50) immediately before type, after modifiers [private]
+    private String lastName;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:34: warning: [type.anno.before.modifier] write type annotation @Email() immediately before type, after modifiers [private]
+    private String email;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:37: warning: [type.anno.before.modifier] write type annotation @Size(max = 256) immediately before type, after modifiers [private]
+    private String imageUrl;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/service/dto/AdminUserDTO.java:42: warning: [type.anno.before.modifier] write type annotation @Size(min = 2, max = 10) immediately before type, after modifiers [private]
+    private String langKey;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/AccountResource.java:60: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public void registerAccount(@Valid @RequestBody ManagedUserVM managedUserVM) {
+                                                                  ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/AccountResource.java:105: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+            .orElseThrow(() -> new AccountResourceException("User could not be found"));
+                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/AccountResource.java:116: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public void saveAccount(@Valid @RequestBody AdminUserDTO userDTO) {
+                                                             ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/AccountResource.java:119: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+            .orElseThrow(() -> new AccountResourceException("Current user login not found"));
+                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/vm/ManagedUserVM.java:16: warning: [type.anno.before.modifier] write type annotation @Size(min = PASSWORD_MIN_LENGTH, max = PASSWORD_MAX_LENGTH) immediately before type, after modifiers [private]
+    private String password;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/WeightResource.java:82: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<Weight> createWeight(@Valid @RequestBody Weight weight) throws URISyntaxException {
+                                                                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/WeightResource.java:110: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<?> updateWeight(@PathVariable(value = "id", required = false) final Long id, @Valid @RequestBody Weight weight)
+                                                                                                                                  ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/WeightResource.java:152: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @RequestBody()
+        @NotNull @RequestBody Weight weight
+                                     ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/UserJWTController.java:34: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<JWTToken> authorize(@Valid @RequestBody LoginVM loginVM) {
+                                                                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/vm/LoginVM.java:13: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private String username;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/vm/LoginVM.java:17: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private String password;
+                   ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PointsResource.java:79: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<Points> createPoints(@Valid @RequestBody Points points) throws URISyntaxException {
+                                                                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PointsResource.java:107: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<?> updatePoints(@PathVariable(value = "id", required = false) final Long id, @Valid @RequestBody Points points)
+                                                                                                                                  ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PointsResource.java:149: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @RequestBody()
+        @NotNull @RequestBody Points points
+                                     ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/UserResource.java:110: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<User> createUser(@Valid @RequestBody AdminUserDTO userDTO) throws URISyntaxException {
+                                                                            ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/UserResource.java:140: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<AdminUserDTO> updateUser(@Valid @RequestBody AdminUserDTO userDTO) {
+                                                                                    ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/BloodPressureResource.java:83: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<BloodPressure> createBloodPressure(@Valid @RequestBody BloodPressure bloodPressure) throws URISyntaxException {
+                                                                                               ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/BloodPressureResource.java:113: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+        @Valid @RequestBody BloodPressure bloodPressure
+                                          ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/BloodPressureResource.java:155: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @RequestBody()
+        @NotNull @RequestBody BloodPressure bloodPressure
+                                            ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PreferencesResource.java:74: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+    public ResponseEntity<Preferences> createPreferences(@Valid @RequestBody Preferences preferences) throws URISyntaxException {
+                                                                                         ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PreferencesResource.java:105: warning: [type.anno.before.decl.anno] write type annotations [@Valid()] immediately before type, after declaration annotation @RequestBody()
+        @Valid @RequestBody Preferences preferences
+                                        ^
+/Users/yoo/manual-annos/21-points/src/main/java/org/jhipster/health/web/rest/PreferencesResource.java:147: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @RequestBody()
+        @NotNull @RequestBody Preferences preferences
+                                          ^
+7 errors
+65 warnings
+
+> Task :compileJava FAILED
+

@@ -1,0 +1,47 @@
+9:38:30 a.m.: Executing ':classes :testClasses'...
+
+
+> Configure project :
+No explicit dependency on the Checker Framework found, using default version 3.39.0
+
+> Task :createCheckerFrameworkManifest UP-TO-DATE
+
+> Task :compileJava
+/Users/yoo/manual-annos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:67: warning: [optional.field] Don't use Optional as the type of a field.
+	private Optional<PublicKey> decodedPublickey;
+	                            ^
+/Users/yoo/manual-annos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:70: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+	public APIMetadata(String apiRoot, List<String> skinDomains, Map<String, Object> meta, Optional<PublicKey> decodedPublickey) {
+	                                                                                                           ^
+/Users/yoo/manual-annos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:110: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+						.orElseThrow(() -> newUncheckedIOException("Invalid JSON: Missing texture url")));
+						            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:189: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+				.findFirst().orElseThrow(NoSuchMethodException::new);
+				                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+2 errors
+2 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s
+
+> Task :compileJava FAILED
+2 actionable tasks: 1 executed, 1 up-to-date
+9:38:35 a.m.: Execution finished ':classes :testClasses'.
+

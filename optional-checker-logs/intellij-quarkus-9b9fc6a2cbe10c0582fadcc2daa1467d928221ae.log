@@ -1,0 +1,572 @@
+11:03:20 a.m.: Executing ':classes :testClasses :integrationTestClasses'...
+
+> Task :copyDeps UP-TO-DATE
+> Task :initializeIntelliJPlugin SKIPPED
+> Task :patchPluginXml UP-TO-DATE
+
+> Task :verifyPluginConfiguration
+[gradle-intellij-plugin :verifyPluginConfiguration] The following plugin configuration issues were found:
+- The Java configuration specifies sourceCompatibility=11 but IntelliJ Platform 2022.2 requires sourceCompatibility=17.
+See: https://jb.gg/intellij-platform-versions
+
+> Task :compileKotlin
+> Task :createCheckerFrameworkManifest UP-TO-DATE
+
+> Task :compileJava
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/settings/UserDefinedMicroProfileSettings.java:104: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public MyState getState() {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/settings/UserDefinedMicroProfileSettings.java:104: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public MyState getState() {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/MicroProfileBundle.java:29: warning: [type.anno.before.modifier] write type annotation @NonNls() immediately before type, after modifiers [public, static, final]
+  @NonNls public static final String BUNDLE = "messages.MicroProfileBundle";
+                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/MicroProfileBundle.java:37: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+  public static @Nls String message(@NotNull @PropertyKey(resourceBundle = BUNDLE) String key, Object @NotNull ... params) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/MicroProfileBundle.java:42: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+  public static Supplier<@Nls String> messagePointer(@NotNull @PropertyKey(resourceBundle = BUNDLE) String key, Object @NotNull ... params) {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/utils/AnnotationUtils.java:119: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private, static]
+	private static PsiAnnotation getAnnotation(String annotationName, PsiAnnotation[] annotations) {
+	                             ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/java/corrections/proposal/Change.java:18: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private, final]
+    private final Document sourceDocument;
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/java/corrections/proposal/Change.java:27: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public Document getSourceDocument() {
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/utils/PsiTypeUtils.java:148: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public, static]
+    public static PsiClass findType(PsiManager manager, String name) {
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/PropertiesManagerForJava.java:441: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+    private static JavaCursorContextKind getContextKindFromClass(int completionOffset, PsiClass psiClass, PsiElement element) {
+                                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/PropertiesManagerForJava.java:534: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private]
+    private PsiElement getHoveredElement(PsiFile typeRoot, int offset) {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/internal/core/PropertiesCollector.java:147: warning: [prefer.ifpresent] It is better style to use ifPresent.
+		if (configProperty.isPresent()) {
+		^
+  Consider changing to:
+  configProperty.ifPresent(configuration.getProperties()::remove)
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/internal/core/PropertiesCollector.java:186: warning: [prefer.ifpresent] It is better style to use ifPresent.
+					if (existingValue.isPresent()) {
+					^
+  Consider changing to:
+  existingValue.ifPresent(to.getValues()::remove)
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/internal/faulttolerance/java/MicroProfileFaultToleranceCompletionParticipant.java:99: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private, static]
+	private static PsiMethod getMethod(PsiFile typeRoot, int offset) {
+	                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/tool/ToolDelegate.java:144: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [static]
+    static List<VirtualFile>[] initDeploymentFiles() {
+                               ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:74: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+    private static RunConfigurationModule getRunConfigurationModule(Project project) {
+                                          ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:87: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    protected QuarkusRunConfigurationOptions getOptions() {
+                                             ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:87: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+    protected QuarkusRunConfigurationOptions getOptions() {
+                                             ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:116: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public SettingsEditor<? extends RunConfiguration> getConfigurationEditor() {
+                                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:116: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public SettingsEditor<? extends RunConfiguration> getConfigurationEditor() {
+                                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:130: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public RunProfileState getState(@NotNull Executor executor, @NotNull ExecutionEnvironment environment) throws ExecutionException {
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfiguration.java:130: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public RunProfileState getState(@NotNull Executor executor, @NotNull ExecutionEnvironment environment) throws ExecutionException {
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:247: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private MouseAdapter onSelectedExtensionClicked(List<QuarkusCategory> categories, CheckboxTree extensionsTree, JBList<QuarkusExtension> selectedExtensions) {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:268: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+    private static MouseAdapter onAvailableExtensionClicked(CheckboxTree extensionsTree) {
+                                ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:283: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+    private static CheckboxTreeListener onNodeCheckedStateChanged(List<QuarkusCategory> categories, JBList<QuarkusExtension> selectedExtensions) {
+                                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:303: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+    private static HyperlinkListener onHyperlinkClicked() {
+                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:315: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private ItemListener onItemChanged(SearchTextField filter, JCheckBox platformCheckbox, List<QuarkusCategory> categories, CheckboxTree extensionsTree) {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:325: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private DocumentAdapter onDocumentChanged(SearchTextField filter, JCheckBox platformCheckbox, List<QuarkusCategory> categories, CheckboxTree extensionsTree) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusExtensionsStep.java:402: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private EditorKit getHtmlEditorKit() {
+                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:50: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public String getBuilderId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:50: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public String getBuilderId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:71: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public ModuleWizardStep getCustomOptionsStep(WizardContext context, Disposable parentDisposable) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:71: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public ModuleWizardStep getCustomOptionsStep(WizardContext context, Disposable parentDisposable) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:82: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public ModuleWizardStep modifySettingsStep(@NotNull SettingsStep settingsStep) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:82: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public ModuleWizardStep modifySettingsStep(@NotNull SettingsStep settingsStep) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:92: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public Module createModule(@NotNull ModifiableModuleModel moduleModel) throws InvalidDataException, IOException, ModuleWithNameAlreadyExists, JDOMException, ConfigurationException {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/module/QuarkusModuleBuilder.java:92: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public Module createModule(@NotNull ModifiableModuleModel moduleModel) throws InvalidDataException, IOException, ModuleWithNameAlreadyExists, JDOMException, ConfigurationException {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/search/QuarkusModuleComponent.java:58: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public State getState() {
+                 ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/search/QuarkusModuleComponent.java:58: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public State getState() {
+                 ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/gradle/AbstractGradleToolDelegate.java:341: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private ProjectImportProvider getGradleProjectImportProvider() {
+                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/gradle/QuarkusProjectDataService.java:37: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public Key<LibraryDependencyData> getTargetDataKey() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/gradle/QuarkusProjectDataService.java:37: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public Key<LibraryDependencyData> getTargetDataKey() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/lang/QuarkusIconProvider.java:31: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public Icon getIcon(@NotNull PsiElement element, int flags) {
+                ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/lang/QuarkusIconProvider.java:31: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public Icon getIcon(@NotNull PsiElement element, int flags) {
+                ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:41: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public String getName() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:41: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public String getName() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:48: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public VirtualFile getSchemaFile() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:48: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public VirtualFile getSchemaFile() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:54: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public SchemaType getSchemaType() {
+                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusJsonSchemaProvider.java:54: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public SchemaType getSchemaType() {
+                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusSchemasProviderFactory.java:27: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public List<JsonSchemaFileProvider> getProviders(@NotNull Project project) {
+                                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/json/QuarkusSchemasProviderFactory.java:27: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public List<JsonSchemaFileProvider> getProviders(@NotNull Project project) {
+                                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:26: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public String getDisplayName() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:26: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public String getDisplayName() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:32: warning: [type.anno.before.decl.anno] write type annotations [@Nls()] immediately before type, after declaration annotation @Override()
+    public String getConfigurationTypeDescription() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:32: warning: [type.anno.before.modifier] write type annotation @Nls() immediately before type, after modifiers [public]
+    public String getConfigurationTypeDescription() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:43: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public String getId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationType.java:43: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public String getId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunSettingsEditor.java:51: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    protected JComponent createEditor() {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunSettingsEditor.java:51: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+    protected JComponent createEditor() {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:28: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public String getId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:28: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public String getId() {
+                  ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:34: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public RunConfiguration createTemplateConfiguration(@NotNull Project project) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:34: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public RunConfiguration createTemplateConfiguration(@NotNull Project project) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:40: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public Class<? extends BaseState> getOptionsClass() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/run/QuarkusRunConfigurationFactory.java:40: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public Class<? extends BaseState> getOptionsClass() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:30: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public FacetType<QuarkusFacet, QuarkusFacetConfiguration> getFacetType() {
+                                                              ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:30: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public FacetType<QuarkusFacet, QuarkusFacetConfiguration> getFacetType() {
+                                                              ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:36: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public FileType getFileType() {
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:36: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public FileType getFileType() {
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:42: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public ElementPattern<FileContent> createSuitableFilePattern() {
+                                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/quarkus/facet/QuarkusFrameworkDetector.java:42: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public ElementPattern<FileContent> createSuitableFilePattern() {
+                                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/settings/UserDefinedQuteSettings.java:83: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public MyState getState() {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/settings/UserDefinedQuteSettings.java:83: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+    public MyState getState() {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/QuteBundle.java:29: warning: [type.anno.before.modifier] write type annotation @NonNls() immediately before type, after modifiers [public, static, final]
+  @NonNls public static final String BUNDLE = "messages.QuteBundle";
+                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/QuteBundle.java:37: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+  public static @Nls String message(@NotNull @PropertyKey(resourceBundle = BUNDLE) String key, Object @NotNull ... params) {
+                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/QuteBundle.java:42: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+  public static Supplier<@Nls String> messagePointer(@NotNull @PropertyKey(resourceBundle = BUNDLE) String key, Object @NotNull ... params) {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/gradle/QuteProjectDataService.java:37: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public Key<LibraryDependencyData> getTargetDataKey() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/gradle/QuteProjectDataService.java:37: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public Key<LibraryDependencyData> getTargetDataKey() {
+                                      ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/QuteFileType.java:42: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static, final]
+    public static final QuteFileType QUTE = new QuteFileType();
+                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/format/QuteFileIndentOptionsProvider.java:40: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+  public CommonCodeStyleSettings.@Nullable IndentOptions getIndentOptions(@NotNull CodeStyleSettings settings, @NotNull PsiFile file) {
+                                                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/format/QuteFileIndentOptionsProvider.java:40: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [public]
+  public CommonCodeStyleSettings.@Nullable IndentOptions getIndentOptions(@NotNull CodeStyleSettings settings, @NotNull PsiFile file) {
+                                                         ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/format/QuteHtmlFormattingModelBuilder.java:85: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected, final]
+    protected final HtmlPolicy myHtmlPolicy;
+                               ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/format/QuteHtmlFormattingModelBuilder.java:138: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public ChildAttributes getChildAttributes(int newChildIndex) {
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/format/QuteHtmlFormattingModelBuilder.java:138: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public ChildAttributes getChildAttributes(int newChildIndex) {
+                           ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/psi/QuteParsing.java:195: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [protected, final]
+    protected final IElementType token() {
+                                 ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/psi/QuteLexer.java:88: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public CharSequence getBufferSequence() {
+                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/psi/QuteLexer.java:88: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public CharSequence getBufferSequence() {
+                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/lang/QuteLanguage.java:25: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static, final]
+    public static final QuteLanguage INSTANCE = new QuteLanguage();
+                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/psi/internal/java/AbstractQuteTemplateLinkCollector.java:224: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private]
+	private VirtualFile getVirtualFile(Module project, String templateFilePathWithoutExtension, String suffix) {
+	                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:30: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public FacetType<QuteFacet, QuteFacetConfiguration> getFacetType() {
+                                                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:30: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public FacetType<QuteFacet, QuteFacetConfiguration> getFacetType() {
+                                                        ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:36: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public FileType getFileType() {
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:36: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public FileType getFileType() {
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:42: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public ElementPattern<FileContent> createSuitableFilePattern() {
+                                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/facet/QuteFrameworkDetector.java:42: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public ElementPattern<FileContent> createSuitableFilePattern() {
+                                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/editor/QuteBraceMatcher.java:49: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [final]
+        public boolean isPairedBracesAllowedBeforeType(@NotNull final IElementType lbraceType, @Nullable final IElementType type) {
+                                                                                   ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/qute/editor/QuteBraceMatcher.java:49: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [final]
+        public boolean isPairedBracesAllowedBeforeType(@NotNull final IElementType lbraceType, @Nullable final IElementType type) {
+                                                                                                                            ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4ij/settings/LanguageServerListConfigurable.java:43: warning: [type.anno.before.modifier] write type annotation @NonNls() immediately before type, after modifiers [private, static, final]
+    private static final String ID = "LanguageServers";
+                                ^
+/Users/yoo/manual-annos/intellij-quarkus/src/main/java/com/redhat/devtools/intellij/lsp4ij/settings/LanguageServerListConfigurable.java:77: warning: [type.anno.before.decl.anno] write type annotations [@Nullable()] immediately before type, after declaration annotation @Override()
+    public Runnable enableSearch(final String option) {
+                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 warnings
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :instrumentCode UP-TO-DATE
+> Task :compileTestKotlin
+> Task :classpathIndexCleanup
+
+> Task :compileTestJava
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:345: warning: [removal] getEffectiveLocalRepository() in MavenGeneralSettings has been deprecated and marked for removal
+    return getMavenGeneralSettings().getEffectiveLocalRepository();
+                                    ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenImportingTestCase.java:85: warning: [removal] getEffectiveGlobalSettingsIoFile() in MavenGeneralSettings has been deprecated and marked for removal
+      MavenWorkspaceSettingsComponent.getInstance(myProject).getSettings().generalSettings.getEffectiveGlobalSettingsIoFile();
+                                                                                          ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenImportingTestCase.java:786: warning: [removal] getInternalJdk() in JavaAwareProjectJdkTableImpl has been deprecated and marked for removal
+    final Sdk sdk = JavaAwareProjectJdkTableImpl.getInstanceEx().getInternalJdk();
+                                                                ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenImportingTestCase.java:460: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Language(value = "XML", prefix = "<project>", suffix = "</project>")
+  protected void importProject(@NotNull @Language(value = "XML", prefix = "<project>", suffix = "</project>") String xml) {
+                                                                                                                     ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenImportingTestCase.java:732: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+  private MavenArtifactDownloader.DownloadResult downloadArtifactAndWaitForResult(Collection<MavenProject> projects,
+                                                 ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:75: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected Project myProject;
+                    ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:144: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+      .orElseThrow(() -> new IllegalStateException("Distribution " + wslMsId + " was not found"));
+                  ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:372: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "XML")
+  protected VirtualFile updateSettingsXmlFully(@NonNls @Language("XML") String content) throws IOException {
+                                                                               ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:416: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Language(value = "XML", prefix = "<project>", suffix = "</project>")
+  protected VirtualFile createProjectPom(@NotNull @Language(value = "XML", prefix = "<project>", suffix = "</project>") String xml) {
+                                                                                                                               ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:446: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "XML")
+  public static String createPomXml(@NonNls @Language(value = "XML", prefix = "<project>", suffix = "</project>") String xml) {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:446: warning: [type.anno.before.modifier] write type annotation @NonNls() immediately before type, after modifiers [public, static]
+  public static String createPomXml(@NonNls @Language(value = "XML", prefix = "<project>", suffix = "</project>") String xml) {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:446: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "XML", prefix = "<project>", suffix = "</project>")
+  public static String createPomXml(@NonNls @Language(value = "XML", prefix = "<project>", suffix = "</project>") String xml) {
+                                                                                                                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:699: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public Iterator<T> iterator() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/maven/testFramework/src/com/intellij/maven/testFramework/MavenTestCase.java:699: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public Iterator<T> iterator() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:275: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    assertUnorderedElementsAreEqual(ContainerUtil.map2Array(deps, entry -> entry.getScope()), scopes);
+                                                                                              ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:330: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    assertUnorderedElementsAreEqual(ContainerUtil.map2Array(deps, entry -> entry.getScope()), scopes);
+                                                                                              ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/GradleTestCase.java:65: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    protected String injectRepo(String config) {
+                     ^
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/GradleTestCase.java:65: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+    protected String injectRepo(String config) {
+                     ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/VersionMatcherRule.java:47: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [private]
+  private CustomMatcher<String> myMatcher;
+                                ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/VersionMatcherRule.java:50: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+  public Matcher<String> getMatcher() {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:80: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected, final]
+  protected final String gradleVersion;
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:187: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+  public static Set<Class<?>> getToolingExtensionClasses() {
+                              ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:272: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, final]
+    @NotNull private final String myReleaseRepoUrl;
+                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:273: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, final]
+    @NotNull private final String mySnapshotRepoUrl;
+                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:285: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public URI getDistributionFor(@NotNull GradleVersion version) throws URISyntaxException {
+               ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:290: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+    private String getDistributionRepository(@NotNull GradleVersion version) {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/builder/AbstractModelBuilderTest.java:302: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public, static]
+    public static String getRepoUrl(boolean isSnapshotUrl) {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:177: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected GradleVersion getCurrentGradleVersion() {
+                          ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:182: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected GradleVersion getCurrentGradleBaseVersion() {
+                          ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:194: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+  private String requireRealJdkHome() {
+                 ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:320: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected void importProjectUsingSingeModulePerGradleProject(@NonNls @Language("Groovy") String config, Boolean skipIndexing)
+                                                                                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:326: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected void importProjectUsingSingeModulePerGradleProject(@NonNls @Language("Groovy") String config) throws IOException {
+                                                                                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:331: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected void importProject(@NonNls @Language("Groovy") String config, Boolean skipIndexing) throws IOException {
+                                                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:336: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected void importProject(@NonNls @Language("Groovy") String config) throws IOException {
+                                                                  ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:364: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected String injectRepo(@NonNls @Language("Groovy") String config) {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:364: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected String injectRepo(@NonNls @Language("Groovy") String config) {
+                                                                 ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:382: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected GradleRunConfiguration createEmptyGradleRunConfiguration(@NotNull String name) {
+                                   ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:398: warning: [type.anno.before.decl.anno] write type annotations [@NonNls()] immediately before type, after declaration annotation @Language(value = "Groovy")
+  protected VirtualFile createSettingsFile(@NonNls @Language("Groovy") String content) throws IOException {
+                                                                              ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/testSources/org/jetbrains/plugins/gradle/importing/GradleImportingTestCase.java:450: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, static]
+  private static File wrapperJar() {
+                      ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:334: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+  private List<ModuleOrderEntry> getModuleModuleDeps(@NotNull String moduleName, @NotNull String depName) {
+                                 ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:354: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private]
+  private <T> List<T> getModuleDep(@NotNull String moduleName, @NotNull String depName, @NotNull Class<T> clazz) {
+                      ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:461: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [final]
+        public void onSuccess(@Nullable final DataNode<ProjectData> externalProject) {
+                                                                    ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:549: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [protected]
+  protected SourceFolder findSource(@NotNull String moduleName, @NotNull String sourcePath) {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemImportingTestCase.java:554: warning: [type.anno.before.modifier] write type annotation @Nullable() immediately before type, after modifiers [protected]
+  protected SourceFolder findSource(@NotNull ModuleRootModel moduleRootManager, @NotNull String sourcePath) {
+                         ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemTestCase.java:116: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+    myWSLDistribution = distributions.stream().filter(it -> wslMsId.equals(it.getMsId())).findFirst().orElseThrow(
+                                                                                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemTestCase.java:257: warning: [type.anno.before.modifier] write type annotation @SystemIndependent() immediately before type, after modifiers [protected]
+  protected String path(@NotNull String relativePath) {
+                   ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemTestCase.java:326: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [protected]
+  protected VirtualFile createProjectJarSubFile(String relativePath, Pair<ByteArraySequence, String>... contentEntries) throws IOException {
+                        ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemTestCase.java:471: warning: [type.anno.before.decl.anno] write type annotations [@NotNull()] immediately before type, after declaration annotation @Override()
+    public Iterator<T> iterator() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/platform/external-system-api/testFramework/src/com/intellij/platform/externalSystem/testFramework/ExternalSystemTestCase.java:471: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [public]
+    public Iterator<T> iterator() {
+                       ^
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/ProjectLabelTest.java:89: error: [method.invocation] call to get() not allowed on the given receiver.
+        Module quarkusMaven = modules.stream().filter(m -> m.getName().equals("using-vertx")).findFirst().get();
+                                                                                                             ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/ProjectLabelTest.java:90: error: [method.invocation] call to get() not allowed on the given receiver.
+        Module maven = modules.stream().filter(m -> m.getName().equals("empty-maven-project")).findFirst().get();
+                                                                                                              ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/ProjectLabelTest.java:91: error: [method.invocation] call to get() not allowed on the given receiver.
+        Module folderNameDifferent = modules.stream().filter(m -> m.getName().equals("mostly.empty")).findFirst().get();
+                                                                                                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/ProjectLabelTest.java:104: error: [method.invocation] call to get() not allowed on the given receiver.
+        Module empty1 = modules.stream().filter(m -> m.getName().equals("empty-maven-project")).findFirst().get();
+                                                                                                               ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/lsp4mp4ij/psi/core/ProjectLabelTest.java:105: error: [method.invocation] call to get() not allowed on the given receiver.
+        Module empty2 = modules.stream().filter(m -> m.getName().equals("other-empty-maven-project")).findFirst().get();
+                                                                                                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/quarkus/completion/GradleQuarkusLibraryTest.java:43: error: [method.invocation] call to get() not allowed on the given receiver.
+		assertNotNull(library.get().getLibrary());
+		                         ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/quarkus/completion/GradleQuarkusLibraryTest.java:44: error: [method.invocation] call to get() not allowed on the given receiver.
+		assertFalse(Stream.of(library.get().getLibrary().getFiles(OrderRootType.CLASSES)).filter(f -> f.getName().contains("commons-io")).findAny().isPresent());
+		                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/devtools/intellij/qute/psi/QuteAssert.java:48: error: [method.invocation] call to get() not allowed on the given receiver.
+		ValueResolverInfo resolver = result.get();
+		                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/microprofile/psi/quarkus/MavenQuarkusConfigRootTest.java:151: error: [method.invocation] call to get() not allowed on the given receiver.
+        ItemHint hint = info.getHint(metadata.get());
+                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/src/test/java/com/redhat/microprofile/psi/quarkus/MavenQuarkusConfigRootTest.java:161: error: [method.invocation] call to get() not allowed on the given receiver.
+        hint = info.getHint(metadata.get());
+                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/intellij-quarkus/intellij-community/plugins/gradle/tooling-extension-impl/testSources/org/jetbrains/plugins/gradle/tooling/util/VersionMatcher.java:16: warning: [type.anno.before.modifier] write type annotation @NotNull() immediately before type, after modifiers [private, final]
+  private final GradleVersion myGradleVersion;
+                              ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors
+48 warnings
+
+> Task :compileTestJava FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6/userguide/command_line_interface.html#sec:command_line_warnings
+11 actionable tasks: 6 executed, 5 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 28s
+11:03:49 a.m.: Execution finished ':classes :testClasses :integrationTestClasses'.
+
