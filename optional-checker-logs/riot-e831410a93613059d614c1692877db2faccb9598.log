@@ -1,0 +1,80 @@
+1:02:28 p.m.: Executing ':assemble :guide:assemble :riot:classes :riot:testClasses :riot-core:classes :riot-core:testClasses'...
+
+
+> Configure project :
+No android or java plugins found in the project riot, checker compiler options will not be applied.
+
+> Configure project :guide
+No android or java plugins found in the project guide, checker compiler options will not be applied.
+
+> Configure project :riot
+No explicit dependency on the Checker Framework found, using default version 3.39.0
+[versioning] WARNING - the working copy has unstaged or uncommitted changes.
+
+> Task :assemble UP-TO-DATE
+> Task :guide:assemble UP-TO-DATE
+> Task :riot:createCheckerFrameworkManifest UP-TO-DATE
+> Task :riot-core:createCheckerFrameworkManifest UP-TO-DATE
+
+> Task :riot-core:compileJava
+warning: The following options were not recognized by any processor: '[projectPath]'
+/Users/yoo/manual-annos/riot/core/riot-core/src/main/java/com/redis/riot/core/FileUtils.java:41: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+				.orElseThrow(() -> new UnknownFileTypeException("Could not determine file extension"));
+				            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:14: warning: [optional.field] Don't use Optional as the type of a field.
+	private Optional<String> prefix = Optional.empty();
+	                         ^
+/Users/yoo/manual-annos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:36: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+	public IdConverterBuilder prefix(Optional<String> prefix) {
+	                                                  ^
+/Users/yoo/manual-annos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:50: error: [method.invocation] call to get() not allowed on the given receiver.
+				return m -> prefix.get();
+				                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/riot/core/riot-core/src/main/java/com/redis/riot/core/convert/IdConverterBuilder.java:57: error: [method.invocation] call to get() not allowed on the given receiver.
+				return s -> prefix.get() + separator + extractor.apply(s);
+				                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+3 errors
+3 warnings
+
+> Task :riot-core:compileJava FAILED
+
+--------------------------------------------------------------------
+4 projects                                       CONF        EXEC   
+--------------------------------------------------------------------
+: .................................. SUCCESS [  0.037 s] [  0.000 s] 
+:guide ............................. SUCCESS [  0.006 s] [  0.000 s] 
+:riot .............................. PARTIAL [  0.014 s] [  0.001 s] 
+:riot-core ......................... FAILURE [  0.006 s] [  3.230 s] 
+--------------------------------------------------------------------
+4 projects executed
+--------------------------------------------------------------------
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.1/userguide/command_line_interface.html#sec:command_line_warnings
+3 actionable tasks: 1 executed, 2 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':riot-core:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+1:02:32 p.m.: Execution finished ':assemble :guide:assemble :riot:classes :riot:testClasses :riot-core:classes :riot-core:testClasses'.
+
