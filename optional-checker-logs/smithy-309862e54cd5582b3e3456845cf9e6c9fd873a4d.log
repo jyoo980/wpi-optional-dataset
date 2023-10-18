@@ -1,0 +1,597 @@
+11:15:06 a.m.: Executing ':classes :testClasses :smithy-aws-apigateway-openapi:classes :smithy-aws-apigateway-openapi:testClasses :smithy-aws-apigateway-traits:classes :smithy-aws-apigateway-traits:testClasses :smithy-aws-cloudformation:classes :smithy-aws-cloudformation:testClasses :smithy-aws-cloudformation-traits:classes :smithy-aws-cloudformation-traits:testClasses :smithy-aws-iam-traits:classes :smithy-aws-iam-traits:testClasses :smithy-aws-protocol-tests:classes :smithy-aws-protocol-tests:testClasses :smithy-aws-traits:classes :smithy-aws-traits:testClasses :smithy-build:classes :smithy-build:testClasses :smithy-cli:classes :smithy-cli:testClasses :smithy-codegen-core:classes :smithy-codegen-core:testClasses :smithy-diff:classes :smithy-diff:testClasses :smithy-jmespath:classes :smithy-jmespath:testClasses :smithy-jsonschema:classes :smithy-jsonschema:testClasses :smithy-linters:classes :smithy-linters:testClasses :smithy-model:classes :smithy-model:testClasses :smithy-mqtt-traits:classes :smithy-mqtt-traits:testClasses :smithy-openapi:classes :smithy-openapi:testClasses :smithy-openapi-traits:classes :smithy-openapi-traits:testClasses :smithy-protocol-test-traits:classes :smithy-protocol-test-traits:testClasses :smithy-rules-engine:classes :smithy-rules-engine:testClasses :smithy-syntax:classes :smithy-syntax:testClasses :smithy-utils:classes :smithy-utils:testClasses :smithy-validation-model:classes :smithy-validation-model:testClasses :smithy-waiters:classes :smithy-waiters:testClasses :jmhClasses :smithy-cli:itClasses :smithy-model:jmhClasses'...
+
+
+> Configure project :
+Smithy version: '1.37.0'
+(using explicitly configured Smithy CLI)
+(using explicitly configured Smithy CLI)
+
+> Task :smithy-aws-apigateway-openapi:createCheckerFrameworkManifest UP-TO-DATE
+
+> Task :smithy-validation-model:smithyTags
+Running smithyTags
+
+> Task :smithy-aws-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-build:createCheckerFrameworkManifest UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :smithy-openapi:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-openapi-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-model:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-apigateway-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :smithy-jsonschema:createCheckerFrameworkManifest UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :smithy-utils:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-apigateway-openapi:processResources UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :smithy-aws-iam-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-cloudformation:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-apigateway-traits:processResources UP-TO-DATE
+> Task :smithy-aws-cloudformation-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :smithy-aws-cloudformation:processResources UP-TO-DATE
+> Task :smithy-aws-cloudformation-traits:processResources UP-TO-DATE
+> Task :smithy-aws-apigateway-openapi:processTestResources UP-TO-DATE
+> Task :smithy-aws-iam-traits:processResources UP-TO-DATE
+> Task :smithy-aws-apigateway-traits:processTestResources UP-TO-DATE
+> Task :smithy-aws-protocol-tests:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-build:processResources UP-TO-DATE
+> Task :smithy-diff:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-cloudformation-traits:processTestResources UP-TO-DATE
+> Task :smithy-cli:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-cloudformation:processTestResources UP-TO-DATE
+> Task :smithy-model:processResources UP-TO-DATE
+> Task :smithy-syntax:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-diff:processResources UP-TO-DATE
+> Task :smithy-validation-model:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-protocol-test-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-aws-iam-traits:processTestResources UP-TO-DATE
+> Task :smithy-utils:compileJava UP-TO-DATE
+> Task :smithy-syntax:processResources NO-SOURCE
+> Task :smithy-aws-traits:processResources UP-TO-DATE
+> Task :smithy-utils:processResources NO-SOURCE
+> Task :smithy-cli:generateVersionFile UP-TO-DATE
+> Task :smithy-protocol-test-traits:processResources UP-TO-DATE
+> Task :smithy-aws-protocol-tests:processTestResources NO-SOURCE
+> Task :smithy-aws-traits:processTestResources UP-TO-DATE
+> Task :smithy-build:processTestResources UP-TO-DATE
+> Task :smithy-codegen-core:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-cli:processResources NO-SOURCE
+> Task :smithy-utils:classes UP-TO-DATE
+> Task :smithy-diff:processTestResources UP-TO-DATE
+> Task :smithy-codegen-core:processResources NO-SOURCE
+> Task :smithy-jsonschema:processResources NO-SOURCE
+> Task :smithy-codegen-core:processTestResources UP-TO-DATE
+> Task :smithy-linters:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-jsonschema:processTestResources UP-TO-DATE
+> Task :smithy-utils:jar UP-TO-DATE
+> Task :smithy-jmespath:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-openapi:processResources UP-TO-DATE
+> Task :smithy-rules-engine:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-mqtt-traits:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-cli:processTestResources UP-TO-DATE
+> Task :smithy-linters:processResources UP-TO-DATE
+> Task :smithy-protocol-test-traits:processTestResources UP-TO-DATE
+> Task :smithy-openapi-traits:processResources UP-TO-DATE
+> Task :smithy-openapi-traits:processTestResources NO-SOURCE
+> Task :smithy-linters:processTestResources UP-TO-DATE
+> Task :smithy-mqtt-traits:processResources UP-TO-DATE
+> Task :smithy-rules-engine:processResources UP-TO-DATE
+> Task :smithy-syntax:processTestResources UP-TO-DATE
+> Task :smithy-validation-model:processTestResources NO-SOURCE
+> Task :compileJmhJava NO-SOURCE
+> Task :smithy-mqtt-traits:processTestResources UP-TO-DATE
+> Task :processJmhResources NO-SOURCE
+> Task :jmhClasses UP-TO-DATE
+> Task :smithy-rules-engine:processTestResources UP-TO-DATE
+> Task :smithy-waiters:createCheckerFrameworkManifest UP-TO-DATE
+> Task :smithy-openapi:processTestResources UP-TO-DATE
+> Task :smithy-cli:processItResources UP-TO-DATE
+> Task :smithy-waiters:processResources UP-TO-DATE
+> Task :smithy-jmespath:compileJava UP-TO-DATE
+> Task :smithy-jmespath:processResources NO-SOURCE
+> Task :smithy-waiters:processTestResources UP-TO-DATE
+> Task :smithy-jmespath:classes UP-TO-DATE
+> Task :smithy-jmespath:compileTestJava UP-TO-DATE
+> Task :smithy-jmespath:processTestResources UP-TO-DATE
+> Task :smithy-jmespath:testClasses UP-TO-DATE
+
+> Task :smithy-model:compileJava
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/Shape.java:332: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getTrait(traitClass).orElseThrow(() -> new ExpectationNotMetException(String.format(
+                                               ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/Model.java:713: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getShape(id).orElseThrow(() -> new ExpectationNotMetException(
+                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/ServiceShape.java:60: error: [method.invocation] call to get() not allowed on the given receiver.
+                    ServiceShape mixin = shape.asServiceShape().get();
+                                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/EnumShape.java:285: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> new IllegalStateException("Enum definitions can only be made for string enums."));
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+
+> Task :smithy-utils:compileTestJava FAILED
+/Users/yoo/manual-annos/smithy/smithy-utils/src/test/java/software/amazon/smithy/utils/OptionalUtilsTest.java:27: error: [method.invocation] call to get() not allowed on the given receiver.
+        assertThat(OptionalUtils.or(Optional.of("Kevin"), () -> Optional.of("foo")).get(), equalTo("Kevin"));
+                                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-utils/src/test/java/software/amazon/smithy/utils/OptionalUtilsTest.java:32: error: [method.invocation] call to get() not allowed on the given receiver.
+        assertThat(OptionalUtils.or(Optional.empty(), () -> Optional.of("foo")).get(), equalTo("foo"));
+                                                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+> Task :smithy-model:compileJava
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/node/ObjectNode.java:171: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+    public <T extends ToNode> ObjectNode withOptionalMember(String key, Optional<T> value) {
+                                                                                    ^
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/node/ObjectNode.java:391: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getMember(name).orElseThrow(() -> new ExpectationNotMetException(errorMessage, this));
+                                          ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/node/ObjectNode.java:405: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getMember(name).orElseThrow(() -> new ExpectationNotMetException(errorMessage.get(), this));
+                                          ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/node/ObjectNode.java:829: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+        public <T extends ToNode> Builder withOptionalMember(String key, Optional<T> value) {
+                                                                                     ^
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/ValidatedResult.java:132: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return validate().orElseThrow(() -> new IllegalStateException("Validated result contains no value"));
+                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/LoadOperation.java:174: error: [method.invocation] call to get() not allowed on the given receiver.
+            members.put(member.getId().getMember().get(), member);
+                                                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/LoaderTraitMap.java:78: error: [method.invocation] call to get() not allowed on the given receiver.
+                    String memberName = target.getMember().get();
+                                                              ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/TopDownSelector.java:76: error: [method.invocation] call to get() not allowed on the given receiver.
+                    if (pushMatch(qualified, context, rel.getNeighborShape().get(), next, visited) == Response.STOP) {
+                                                                                ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/NeighborSelector.java:47: error: [method.invocation] call to get() not allowed on the given receiver.
+                return next.apply(context, rel.getNeighborShape().get());
+                                                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/SelectorParser.java:147: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                                    .orElseThrow(() -> syntax("Unknown shape type: " + identifier));
+                                                ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:156: error: [optional.collection] Don't use Optional to wrap a collection type.
+    public Optional<Path> createPathToInputMember(ToShapeId operationId, String memberName) {
+                          ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:156: error: [optional.collection] Don't use Optional to wrap a collection type.
+    public Optional<Path> createPathToInputMember(ToShapeId operationId, String memberName) {
+                          ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:157: error: [optional.collection] Don't use Optional to wrap a collection type.
+        return createPathTo(operationId, memberName, RelationshipType.INPUT);
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:167: error: [optional.collection] Don't use Optional to wrap a collection type.
+    public Optional<Path> createPathToOutputMember(ToShapeId operationId, String memberName) {
+                          ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:167: error: [optional.collection] Don't use Optional to wrap a collection type.
+    public Optional<Path> createPathToOutputMember(ToShapeId operationId, String memberName) {
+                          ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:168: error: [optional.collection] Don't use Optional to wrap a collection type.
+        return createPathTo(operationId, memberName, RelationshipType.OUTPUT);
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:177: error: [optional.collection] Don't use Optional to wrap a collection type.
+            return Optional.empty();
+                                 ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:184: error: [optional.collection] Don't use Optional to wrap a collection type.
+            return Optional.empty();
+                                 ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:190: error: [optional.collection] Don't use Optional to wrap a collection type.
+            return Optional.empty();
+                                 ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:196: error: [optional.collection] Don't use Optional to wrap a collection type.
+            return Optional.empty();
+                                 ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:171: error: [optional.collection] Don't use Optional to wrap a collection type.
+    private Optional<Path> createPathTo(ToShapeId operationId, String memberName, RelationshipType rel) {
+                           ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:202: error: [optional.collection] Don't use Optional to wrap a collection type.
+        return Optional.of(path);
+                          ^
+  Use an empty collection to represent the absence of values.
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/selector/PathFinder.java:320: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+            return last.getNeighborShape().orElseThrow(() -> new SourceException(
+                                                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/neighbor/Walker.java:173: error: [method.invocation] call to get() not allowed on the given receiver.
+                    queued = relationship.getNeighborShape().get();
+                                                                ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/traits/EnumValueTrait.java:59: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getStringValue().orElseThrow(() -> new ExpectationNotMetException(
+                                           ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/traits/EnumValueTrait.java:80: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getIntValue().orElseThrow(() -> new ExpectationNotMetException(
+                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/SmithyIdlModelSerializer.java:181: error: [method.invocation] call to get() not allowed on the given receiver.
+            OperationShape operation = shape.asOperationShape().get();
+                                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/SmithyIdlModelSerializer.java:756: error: [method.invocation] call to get() not allowed on the given receiver.
+                shape = model.expectShape(shape.asMemberShape().get().getTarget());
+                                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/shapes/SmithyIdlModelSerializer.java:868: error: [method.invocation] call to get() not allowed on the given receiver.
+                    member = shape.asMapShape().get().getValue();
+                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/NullableIndex.java:181: error: [method.invocation] call to get() not allowed on the given receiver.
+                return checkMode.isStructureMemberOptional(container.asStructureShape().get(), member, target);
+                                                                                           ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/NullableIndex.java:227: error: [method.invocation] call to get() not allowed on the given receiver.
+                return isMemberNullableInV1(m, shape.asMemberShape().get());
+                                                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/OperationIndex.java:116: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getInputShape(operation).orElseThrow(() -> new ExpectationNotMetException(
+                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/OperationIndex.java:199: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        return getOutputShape(operation).orElseThrow(() -> new ExpectationNotMetException(
+                                                    ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/TextIndex.java:133: error: [method.invocation] call to get() not allowed on the given receiver.
+                    return model.getShape(member.getTarget()).get();
+                                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/PropertyBindingIndex.java:61: error: [method.invocation] call to get() not allowed on the given receiver.
+                OperationShape operationShape = (OperationShape) model.getShape(operationShapeId).get();
+                                                                                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/PropertyBindingIndex.java:206: error: [method.invocation] call to get() not allowed on the given receiver.
+                    return shape.asStructureShape().get();
+                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/HttpBindingIndex.java:122: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> new IllegalArgumentException(id + " has no http binding trait"));
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/HttpBindingIndex.java:120: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> new IllegalArgumentException(id + " is not an operation shape"))
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/HttpBindingIndex.java:118: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> new IllegalArgumentException(id + " is not a valid shape"))
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/HttpBindingIndex.java:139: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+        Shape shape = getModel().getShape(id).orElseThrow(() -> new IllegalArgumentException("Shape not found " + id));
+                                                         ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/knowledge/EventStreamIndex.java:122: error: [method.invocation] call to get() not allowed on the given receiver.
+            events.put(member.getMemberName(), eventStreamTarget.asStructureShape().get());
+                                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/ApplyMixin.java:64: error: [method.invocation] call to get() not allowed on the given receiver.
+        String name = memberBuilder.getId().getMember().get();
+                                                           ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/ApplyResourceBasedTargets.java:70: error: [method.invocation] call to get() not allowed on the given receiver.
+            ResourceShape resource = fromShape.asResourceShape().get();
+                                                                    ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/ApplyResourceBasedTargets.java:71: error: [method.invocation] call to get() not allowed on the given receiver.
+            String name = memberBuilder.getId().getMember().get();
+                                                               ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/IdlModelLoader.java:547: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                .orElseThrow(() -> syntax("Unknown shape type: " + shapeType));
+                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/loader/ValidationLoader.java:76: error: [method.invocation] call to get() not allowed on the given receiver.
+                .map(value -> Severity.fromString(value).get())
+                                                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/node/DefaultNodeSerializers.java:80: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+        public Node serialize(Optional value, Set<Object> serializedObjects, NodeMapper mapper) {
+                                       ^
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/transform/ModelTransformer.java:440: error: [methodref.receiver] Incompatible receiver type
+                .map(Optional::get)
+                     ^
+  found   : @Present Optional<@MaybePresent Shape>
+  required: @MaybePresent Optional<@MaybePresent Shape>
+  Consequence: method in @MaybePresent Optional<@MaybePresent Shape>
+    @MaybePresent Shape get(@Present Optional<@MaybePresent Shape> this)
+  is not a valid method reference for method in @MaybePresent Function<@MaybePresent Optional<@MaybePresent Shape>, @MaybePresent Shape>
+    @MaybePresent Shape apply(@MaybePresent Function<@MaybePresent Optional<@MaybePresent Shape>, @MaybePresent Shape> this, @MaybePresent Optional<@MaybePresent Shape> p0)
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/transform/FilterShapes.java:53: error: [method.invocation] call to get() not allowed on the given receiver.
+        return !shape.isMemberShape() || model.getShape(shape.asMemberShape().get().getContainer())
+                                                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/testrunner/SmithyTestCase.java:189: error: [method.invocation] call to get() not allowed on the given receiver.
+                .severity(Severity.fromString(matcher.group("severity")).get())
+                                                                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/PaginatedTraitValidator.java:172: error: [method.invocation] call to get() not allowed on the given receiver.
+                        prefix, validator.propertyName(), member.getId().getMember().get(), target.getType(),
+                                                                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/PaginatedTraitValidator.java:179: error: [method.invocation] call to get() not allowed on the given receiver.
+                String memberName = member.getId().getMember().get();
+                                                                  ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/EnumShapeValidator.java:103: error: [method.invocation] call to get() not allowed on the given receiver.
+            NumberNode number = trait.toNode().asNumberNode().get();
+                                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/TraitBreakingChangesValidator.java:49: error: [method.invocation] call to get() not allowed on the given receiver.
+                NodePointer pointer = diffRule.getPath().get();
+                                                            ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/UnstableTraitValidator.java:40: error: [method.invocation] call to get() not allowed on the given receiver.
+                        appliedTo.findTrait(trait.getId()).get(), // point to the applied trait which for sure exists.
+                                                              ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/TraitValueValidator.java:84: error: [method.invocation] call to get() not allowed on the given receiver.
+        return model.getShape(shape).get().accept(validator);
+                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/HttpUriConflictValidator.java:138: error: [method.invocation] call to get() not allowed on the given receiver.
+        SmithyPattern prefix = operation.getTrait(EndpointTrait.class).get().getHostPrefix();
+                                                                          ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/HttpUriConflictValidator.java:139: error: [method.invocation] call to get() not allowed on the given receiver.
+        SmithyPattern otherPrefix = otherOperation.getTrait(EndpointTrait.class).get().getHostPrefix();
+                                                                                    ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/HttpUriConflictValidator.java:146: error: [method.invocation] call to get() not allowed on the given receiver.
+        UriPattern uriPattern = operation.getTrait(HttpTrait.class).get().getUri();
+                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/HttpUriConflictValidator.java:147: error: [method.invocation] call to get() not allowed on the given receiver.
+        UriPattern otherUriPattern = otherOperation.getTrait(HttpTrait.class).get().getUri();
+                                                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/HttpLabelTraitValidator.java:94: error: [method.invocation] call to get() not allowed on the given receiver.
+                } else if (http.getUri().getLabel(member.getMemberName()).get().isGreedyLabel()) {
+                                                                             ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ShapeRecursionValidator.java:91: error: [method.invocation] call to get() not allowed on the given receiver.
+                return rel.getNeighborShape().get().hasTrait(RequiredTrait.class);
+                                                 ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ReferencesTraitValidator.java:77: error: [method.invocation] call to get() not allowed on the given receiver.
+                    ResourceShape resource = targetedShape.get().asResourceShape().get();
+                                                                                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/DeprecatedTraitValidator.java:63: error: [method.invocation] call to get() not allowed on the given receiver.
+                            events.add(warning(shape, shape.findTrait(trait.getId()).get(), format(
+                                                                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/OperationValidator.java:101: error: [method.invocation] call to get() not allowed on the given receiver.
+                    events.add(emitInvalidMemberRef(rel.getShape().asMemberShape().get(), descriptor));
+                                                                                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ExamplesTraitValidator.java:72: error: [method.invocation] call to get() not allowed on the given receiver.
+                            "output", example.getOutput().get(), model, shape, example);
+                                                             ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ExamplesTraitValidator.java:76: error: [method.invocation] call to get() not allowed on the given receiver.
+                ExamplesTrait.ErrorExample errorExample = example.getError().get();
+                                                                                ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/PrivateAccessValidator.java:63: error: [method.invocation] call to get() not allowed on the given receiver.
+                relationship.getNeighborShape().get().getId());
+                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/NoInlineDocumentSupportValidator.java:73: error: [method.invocation] call to get() not allowed on the given receiver.
+                        events.add(createEvent(service, service.findTrait(protocol).get(), foundDocuments));
+                                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ResourceOperationInputOutputValidator.java:89: warning: [optional.parameter] Don't use Optional as the type of a formal parameter.
+        Optional<ShapeId> operationShapeId,
+                          ^
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ResourceOperationInputOutputValidator.java:108: error: [method.invocation] call to get() not allowed on the given receiver.
+                properties.add(propertyBindingIndex.getPropertyName(member.getId()).get());
+                                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ResourceOperationInputOutputValidator.java:113: error: [method.invocation] call to get() not allowed on the given receiver.
+                properties.add(propertyBindingIndex.getPropertyName(member.getId()).get());
+                                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/ResourceOperationInputOutputValidator.java:205: error: [method.invocation] call to get() not allowed on the given receiver.
+        String propertyName = propertyBindingIndex.getPropertyName(member.getId()).get();
+                                                                                      ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/TraitTargetValidator.java:105: error: [method.invocation] call to get() not allowed on the given receiver.
+                    events.add(error(shape, shape.findTrait(traitId).get(), String.format(
+                                                                        ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/StreamingTraitValidator.java:99: error: [method.invocation] call to get() not allowed on the given receiver.
+                    MemberShape member = shape.asMemberShape().get();
+                                                                  ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/StreamingTraitValidator.java:125: error: [method.invocation] call to get() not allowed on the given receiver.
+                    MemberShape member = rel.getShape().asMemberShape().get();
+                                                                           ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/StreamingTraitValidator.java:143: error: [method.invocation] call to get() not allowed on the given receiver.
+                            events.add(error(rel.getNeighborShape().get(), String.format(
+                                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/RangeTraitValidator.java:77: error: [method.invocation] call to get() not allowed on the given receiver.
+                MemberShape member = shape.asMemberShape().get();
+                                                              ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/DefaultTraitValidator.java:57: error: [method.invocation] call to <X>orElseThrow(java.util.function.Supplier<? extends X>) not allowed on the given receiver.
+                    MemberShape member = rel.getShape().asMemberShape().orElseThrow(() -> {
+                                                                                   ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/validators/DefaultTraitValidator.java:97: error: [method.invocation] call to get() not allowed on the given receiver.
+            shapeTarget = model.expectShape(shape.asMemberShape().get().getTarget());
+                                                                     ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/node/MemberAndShapeTraitPlugin.java:42: error: [method.invocation] call to get() not allowed on the given receiver.
+            check(shape, shape.getTrait(traitClass).get(), (N) value, context, emitter);
+                                                       ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/node/RangeTraitPlugin.java:59: error: [method.invocation] call to get() not allowed on the given receiver.
+                        shape.getId(), trait.getMin().get(), node.getValue()),
+                                                         ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+/Users/yoo/manual-annos/smithy/smithy-model/src/main/java/software/amazon/smithy/model/validation/node/RangeTraitPlugin.java:66: error: [method.invocation] call to get() not allowed on the given receiver.
+                        shape.getId(), trait.getMax().get(), node.getValue()),
+                                                         ^
+  found   : @MaybePresent Optional</*RAW*/>
+  required: @Present Optional</*RAW*/>
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+88 errors
+4 warnings
+
+> Task :smithy-model:compileJava FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+68 actionable tasks: 3 executed, 65 up-to-date
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':smithy-utils:compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':smithy-model:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+BUILD FAILED in 15s
+11:15:21 a.m.: Execution finished ':classes :testClasses :smithy-aws-apigateway-openapi:classes :smithy-aws-apigateway-openapi:testClasses :smithy-aws-apigateway-traits:classes :smithy-aws-apigateway-traits:testClasses :smithy-aws-cloudformation:classes :smithy-aws-cloudformation:testClasses :smithy-aws-cloudformation-traits:classes :smithy-aws-cloudformation-traits:testClasses :smithy-aws-iam-traits:classes :smithy-aws-iam-traits:testClasses :smithy-aws-protocol-tests:classes :smithy-aws-protocol-tests:testClasses :smithy-aws-traits:classes :smithy-aws-traits:testClasses :smithy-build:classes :smithy-build:testClasses :smithy-cli:classes :smithy-cli:testClasses :smithy-codegen-core:classes :smithy-codegen-core:testClasses :smithy-diff:classes :smithy-diff:testClasses :smithy-jmespath:classes :smithy-jmespath:testClasses :smithy-jsonschema:classes :smithy-jsonschema:testClasses :smithy-linters:classes :smithy-linters:testClasses :smithy-model:classes :smithy-model:testClasses :smithy-mqtt-traits:classes :smithy-mqtt-traits:testClasses :smithy-openapi:classes :smithy-openapi:testClasses :smithy-openapi-traits:classes :smithy-openapi-traits:testClasses :smithy-protocol-test-traits:classes :smithy-protocol-test-traits:testClasses :smithy-rules-engine:classes :smithy-rules-engine:testClasses :smithy-syntax:classes :smithy-syntax:testClasses :smithy-utils:classes :smithy-utils:testClasses :smithy-validation-model:classes :smithy-validation-model:testClasses :smithy-waiters:classes :smithy-waiters:testClasses :jmhClasses :smithy-cli:itClasses :smithy-model:jmhClasses'.
+
